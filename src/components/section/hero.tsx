@@ -34,6 +34,12 @@ const Hero = () => {
             <div className="text-xl md:text-2xl kode_mono_font text-white mb-2">
               TOURNAMENT STARTS IN
             </div>
+
+            <div className=" flex kode_mono_font items-center justify-evenly text-3xl">
+              <span>54D</span>
+              <span>54D</span>
+              <span>54D</span>
+            </div>
             </div>
           </div>
        
