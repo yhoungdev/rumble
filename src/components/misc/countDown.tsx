@@ -1,10 +1,14 @@
-import { useState, useEffect } from 'react';
-import Button from '../button';
+import { useState, useEffect } from "react";
+import Button from "../button";
 
 const CountDown = () => {
-  
-  const targetDate = new Date('2024-12-31T00:00:00Z').getTime();
-  const [timeRemaining, setTimeRemaining] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  const targetDate = new Date("2024-12-31T00:00:00Z").getTime();
+  const [timeRemaining, setTimeRemaining] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  });
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -14,7 +18,9 @@ const CountDown = () => {
       if (difference > 0) {
         setTimeRemaining({
           days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-          hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+          hours: Math.floor(
+            (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+          ),
           minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
           seconds: Math.floor((difference % (1000 * 60)) / 1000),
         });
@@ -30,10 +36,10 @@ const CountDown = () => {
     <div
       className="w-full bg-red-300 h-[40vh] py-[3em]"
       style={{
-        background: 'url(/bg/tournermentbanner.svg)',
-        backgroundSize: 'contain',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
+        background: "url(/bg/tournermentbanner.svg)",
+        backgroundSize: "contain",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="w-[75%] text-center mx-auto h-full">
@@ -74,7 +80,8 @@ const CountDown = () => {
               Join The Rumble
             </button>
             {/* Shadow element */}
-            <div className="
+            <div
+              className="
           absolute
           inset-0
           bg-black/20
@@ -84,7 +91,8 @@ const CountDown = () => {
           translate-x-1
           translate-y-1
           -z-10
-        " />
+        "
+            />
           </div>
         </div>
       </div>

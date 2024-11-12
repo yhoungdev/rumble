@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Instrument+Serif&family=Kode+Mono:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Instrument+Serif&family=Kode+Mono:wght@400..700&display=swap");
 
 :root {
   --kode-font: "Kode Mono", monospace;
@@ -12,7 +12,6 @@ body {
 .kode_mono_font {
   font-family: var(--kode-font);
 }
-
 
 @keyframes float {
   0%,

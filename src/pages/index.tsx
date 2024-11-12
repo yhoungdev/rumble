@@ -26,7 +26,7 @@ const IndexHomepage = () => {
       <ArenaSection />
       <HowItWorks />
       <MintInformation />
-      <Roadmap/>
+      <Roadmap />
     </div>
   );
 };

@@ -22,8 +22,7 @@ const Hero = () => {
           </p>
 
           {/* Tournament Timer */}
-          <CountDown/>
-       
+          <CountDown />
         </div>
 
         {/* Hero Image */}

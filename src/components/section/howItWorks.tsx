@@ -20,7 +20,9 @@ export default function HowItWorks() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Left column */}
           <div className="space-y-8">
-            <h1 className="text-7xl font-mono tracking-wider kode_mono_font">RUMBLE</h1>
+            <h1 className="text-7xl font-mono tracking-wider kode_mono_font">
+              RUMBLE
+            </h1>
             <div className="h-px bg-gradient-to-r from-white/20 via-white/10 to-transparent"></div>
             <p className="text-gray-400 text-sm leading-relaxed">
               In Rumble, your journey begins by minting your very own elemental
