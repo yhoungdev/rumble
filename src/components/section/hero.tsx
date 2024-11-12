@@ -1,4 +1,5 @@
 import Button from "../button";
+import CountDown from "../misc/countDown";
 
 const Hero = () => {
   return (
@@ -21,27 +22,7 @@ const Hero = () => {
           </p>
 
           {/* Tournament Timer */}
-          <div className="w-full bg-red-300 h-[40vh] py-[3em] "
-            style={
-              {
-                background: 'url(/bg/tournermentbanner.svg)',
-                backgroundSize: 'contain',
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat'
-              }
-            }>
-            <div className="w-[75%] text-center mx-auto h-full ">
-            <div className="text-xl md:text-2xl kode_mono_font text-white mb-2">
-              TOURNAMENT STARTS IN
-            </div>
-
-            <div className=" flex kode_mono_font items-center justify-evenly text-3xl">
-              <span>54D</span>
-              <span>54D</span>
-              <span>54D</span>
-            </div>
-            </div>
-          </div>
+          <CountDown/>
        
         </div>
 
