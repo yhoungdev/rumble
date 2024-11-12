@@ -22,7 +22,7 @@ const Roadmap = () => {
 
   return (
     <div className="min-h-screen bg-gray-900 p-8">
-      <h1 className="text-6xl font-bold text-white text-center mb-20">ROADMAP</h1>
+      <h1 className="text-6xl font-bold text-white text-center mb-20 kode_mono_font">ROADMAP</h1>
 
       <div className="max-w-5xl mx-auto relative">
         {/* Dotted line connector */}

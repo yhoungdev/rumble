@@ -5,6 +5,7 @@ import PeakSection from "../components/section/peaks";
 import ArenaSection from "../components/section/arena";
 import HowItWorks from "../components/section/howItWorks";
 import MintInformation from "../components/section/mintInfo";
+import Roadmap from "../components/section/roadMap.tsx";
 
 const IndexHomepage = () => {
   return (
@@ -25,6 +26,7 @@ const IndexHomepage = () => {
       <ArenaSection />
       <HowItWorks />
       <MintInformation />
+      <Roadmap/>
     </div>
   );
 };

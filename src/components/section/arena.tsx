@@ -15,7 +15,7 @@ export default function ArenaSection() {
         <h1 className="text-xl">LET THE GAME BEGIN</h1>
       </div>
 
-      <h2 className="text-5xl font-bold text-center mb-8">ARENA</h2>
+      <h2 className="text-5xl font-bold text-center mb-8 kode_mono_font">ARENA</h2>
 
       <div className="max-w-4xl mx-auto border border-blue-500 rounded-lg overflow-hidden">
         <div className="bg-gradient-to-r from-blue-600 to-blue-400 h-2" />
