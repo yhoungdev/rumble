@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderNavs from "../components/headers/nav";
 import Hero from "../components/section/hero";
 import PeakSection from "../components/section/peaks";
@@ -6,6 +5,7 @@ import ArenaSection from "../components/section/arena";
 import HowItWorks from "../components/section/howItWorks";
 import MintInformation from "../components/section/mintInfo";
 import Roadmap from "../components/section/roadMap.tsx";
+import Team from "../components/section/team.tsx";
 
 const IndexHomepage = () => {
   return (
@@ -27,6 +27,7 @@ const IndexHomepage = () => {
       <HowItWorks />
       <MintInformation />
       <Roadmap />
+      <Team/>
     </div>
   );
 };
