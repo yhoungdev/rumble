@@ -25,9 +25,7 @@ export default function Partner() {
         PARTNERS
       </h2>
 
-
       <div className="flex flex-wrap justify-center gap-12">
-
         <div className="grid grid-cols-2 gap-8">
           {partners1.map((partner) => (
             <div
@@ -38,7 +36,6 @@ export default function Partner() {
           ))}
         </div>
 
-
         <div className="flex justify-center items-center">
           <img
             src="/images/partners/nft.svg"
@@ -48,7 +45,6 @@ export default function Partner() {
             className="w-58 h-58 md:w-64 md:h-64 animate-float"
           />
         </div>
-
 
         <div className="grid grid-cols-2 gap-8">
           {partners2.map((partner) => (

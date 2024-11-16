@@ -1,15 +1,16 @@
-
 export default function MintInformation() {
   return (
     <>
-
-      <div className={'h-[180vh]  w-full bg-red-300 flex items-center justify-center'}
-           style={{
-             backgroundImage: `url(${'/bg/sliced_cloud.tsx.svg'})`,
-             backgroundPosition: "center",
-             backgroundSize: "cover",
-             backgroundRepeat: "no-repeat"
-           }}
+      <div
+        className={
+          "h-[180vh]  w-full bg-red-300 flex items-center justify-center"
+        }
+        style={{
+          backgroundImage: `url(${"/bg/sliced_cloud.tsx.svg"})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+        }}
       >
         <div className=" relative">
           <div className="flex flex-col md:flex-row justify-between items-center px-6 py-4 text-white">
@@ -30,14 +31,11 @@ export default function MintInformation() {
               <div className="absolute inset-0 bg-white opacity-30 rounded-full blur-2xl" />
             </div>
 
-            <p className="text-lg mt-4 md:mt-0 kode_mono_font">
-              Mp: 0.5 SOL
-            </p>
+            <p className="text-lg mt-4 md:mt-0 kode_mono_font">Mp: 0.5 SOL</p>
           </div>
 
           <div className="flex justify-center pb-6 pt-4">
-            <button
-              className="bg-black w-[200px] text-white rounded-full px-12 py-2 text-lg font-semibold hover:bg-black/90">
+            <button className="bg-black w-[200px] text-white rounded-full px-12 py-2 text-lg font-semibold hover:bg-black/90">
               Mint
             </button>
           </div>
@@ -46,4 +44,3 @@ export default function MintInformation() {
     </>
   );
 }
-

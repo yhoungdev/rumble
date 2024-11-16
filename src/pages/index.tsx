@@ -29,10 +29,9 @@ const IndexHomepage = () => {
       <HowItWorks />
       <MintInformation />
       <Roadmap />
-      <Team/>
-      <Partner/>
-      <Footer/>
-
+      <Team />
+      <Partner />
+      <Footer />
     </div>
   );
 };
