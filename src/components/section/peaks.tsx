@@ -1,7 +1,8 @@
-import SkewedButton from "../button/gameButton";
+
+import PeakCarousel from "./peakCarousel.tsx";
 const PeakSection = () => {
   return (
-    <div className="h-screen w-full ">
+    <div className="  w-full ">
       <div
         className="h-[150px]"
         style={{
@@ -12,8 +13,10 @@ const PeakSection = () => {
         }}
       ></div>
 
-      <div className="h-screen w-full  bg-primary-300">
-        <div className="container"></div>
+      <div className="w-full py-[5em] bg-primary-300">
+        <div className="container">
+          <PeakCarousel/>
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 const Team = () => {
   return (
     <div className="my-[5em]">
-      <div className="bg-black min-h-screen p-8">
+      <div className="bg-black  p-8">
         <h1 className="text-white text-center text-4xl mb-16 kode_mono_font">
           Team
         </h1>

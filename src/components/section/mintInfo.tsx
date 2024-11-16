@@ -24,8 +24,8 @@ export default function MintInformation() {
               <img
                 src="/images/collectibles/ice_boy.svg"
                 alt="Ice warrior character"
-                width={350}
-                height={350}
+                width={550}
+                height={550}
                 className="relative z-10 animate-float"
               />
               <div className="absolute inset-0 bg-white opacity-30 rounded-full blur-2xl" />

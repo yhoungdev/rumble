@@ -11,9 +11,7 @@ export default function ArenaSection() {
         ARENA
       </h2>
 
-      {/*<div className={' w-full h-[100vh] container bg-red-300 mx-auto'}>*/}
 
-      {/*</div>*/}
       <div className="flex container flex-col items-center gap-12 ">
         <div
           className="flex flex-col items-center w-full max-w-[800px] h-[60vh]"
