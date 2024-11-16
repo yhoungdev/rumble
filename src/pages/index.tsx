@@ -6,6 +6,7 @@ import HowItWorks from "../components/section/howItWorks";
 import MintInformation from "../components/section/mintInfo";
 import Roadmap from "../components/section/roadMap.tsx";
 import Team from "../components/section/team.tsx";
+import Partner from "../components/section/partner.tsx";
 
 const IndexHomepage = () => {
   return (
@@ -28,6 +29,8 @@ const IndexHomepage = () => {
       <MintInformation />
       <Roadmap />
       <Team/>
+      <Partner/>
+
     </div>
   );
 };
