@@ -24,4 +24,12 @@ const Button = ({
   );
 };
 
+export const RoundedButton = ({ children }: IButton) => {
+  return (
+    <button className="bg-white text-black px-10  rounded-full kode_mono_font py-3 text-sm font-medium hover:bg-gray-100 transition-colors">
+      {children}
+    </button>
+  );
+};
+
 export default Button;

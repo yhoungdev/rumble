@@ -8,6 +8,7 @@ import Roadmap from "../components/section/roadMap.tsx";
 import Team from "../components/section/team.tsx";
 import Partner from "../components/section/partner.tsx";
 import Footer from "../components/section/footer.tsx";
+import FaqSection from "../components/section/faq.tsx";
 
 const IndexHomepage = () => {
   return (
@@ -29,6 +30,7 @@ const IndexHomepage = () => {
       <HowItWorks />
       <MintInformation />
       <Roadmap />
+      <FaqSection />
       <Team />
       <Partner />
       <Footer />

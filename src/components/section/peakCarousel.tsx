@@ -30,19 +30,16 @@ const PerkCarousel = () => {
   const totalSlides = carouselImgs.length;
 
   const nextSlide = () => {
-
     setCurrentSlide((prev) => (prev + 1) % totalSlides);
   };
 
   const prevSlide = () => {
-
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
   return (
     <div className="w-full mx-auto">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
-
         <div
           className="w-full md:w-[554px] bg-black md:h-[500px]
          rounded-lg relative z-10 md:-mr-20 flex items-center justify-center"
@@ -81,7 +78,6 @@ const PerkCarousel = () => {
           </div>
         </div>
       </div>
-
 
       <div className="controller flex items-center justify-center my-[2em]">
         <CarouselPagination

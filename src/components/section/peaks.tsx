@@ -14,7 +14,7 @@ const PeakSection = () => {
 
       <div className="w-full py-[5em] bg-primary-300">
         <div className="container  mx-auto">
-          <PeakCarousel  />
+          <PeakCarousel />
         </div>
       </div>
     </div>

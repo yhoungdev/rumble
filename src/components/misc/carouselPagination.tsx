@@ -5,19 +5,16 @@ export default function CarouselPagination({
   current = 2,
   onNext = () => {},
   onPrevious = () => {},
-
 }: {
   total?: number;
   current?: number;
   onNext?: () => void;
   onPrevious?: () => void;
-  imageLength?: number
+  imageLength?: number;
 }) {
   return (
     <div className="flex items-center justify-center gap-4  p-8">
-
-      <ArrowLeftIcon
-        onClick={onNext}/>
+      <ArrowLeftIcon onClick={onNext} />
 
       <div className="flex gap-3">
         {Array.from({ length: total }).map((_, index) => (
@@ -31,7 +28,7 @@ export default function CarouselPagination({
         ))}
       </div>
 
-      <ArrowRightIcon onClick={onPrevious}/>
+      <ArrowRightIcon onClick={onPrevious} />
     </div>
   );
 }

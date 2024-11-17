@@ -1,10 +1,10 @@
-interface  IconProps {
-  onClick: () => void
+interface IconProps {
+  onClick: () => void;
 }
 
-export const ArrowLeftIcon = ({onClick}: IconProps) => {
+export const ArrowLeftIcon = ({ onClick }: IconProps) => {
   return (
-    <div className={'cursor-pointer'} onClick={onClick}>
+    <div className={"cursor-pointer"} onClick={onClick}>
       <svg
         width="74"
         height="76"
@@ -30,10 +30,9 @@ export const ArrowLeftIcon = ({onClick}: IconProps) => {
   );
 };
 
-export const ArrowRightIcon = ({onClick}: IconProps) => {
+export const ArrowRightIcon = ({ onClick }: IconProps) => {
   return (
-    <div className={'cursor-pointer'}
-      onClick={onClick}>
+    <div className={"cursor-pointer"} onClick={onClick}>
       <svg
         width="70"
         height="80"
