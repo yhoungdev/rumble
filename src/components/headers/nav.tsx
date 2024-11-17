@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useState } from "react";
 import Button from "../button";
-import { Menu, X } from 'lucide-react';
+import { Menu, X } from "lucide-react";
 
 const HeaderNavs = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -26,7 +26,11 @@ const HeaderNavs = () => {
           onClick={toggleMobileMenu}
           className="focus:outline-none text-gray-800 dark:text-white"
         >
-          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          {isMobileMenuOpen ? (
+            <X className="h-6 w-6" />
+          ) : (
+            <Menu className="h-6 w-6" />
+          )}
         </button>
       </div>
 
@@ -58,7 +62,9 @@ const HeaderNavs = () => {
                 {link.label}
               </a>
             ))}
-            <Button onClick={() => setIsMobileMenuOpen(false)}>Whitelist</Button>
+            <Button onClick={() => setIsMobileMenuOpen(false)}>
+              Whitelist
+            </Button>
           </div>
         </div>
       )}

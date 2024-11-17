@@ -1,3 +1,5 @@
+import Button from "../button";
+
 const perks = [
   {
     title: "Healing Aura",
@@ -16,10 +18,25 @@ const perks = [
 
 const PerkCarousel = () => {
   return (
-    <div className="w-[90%] mx-auto">
+    <div className="w-full mx-auto  ">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
         {/* Black Box with Perspective */}
-        <div className="w-full md:w-[724px] bg-black h-[300px] md:h-[500px] rounded-lg relative z-10 md:-mr-20"></div>
+        <div className="w-full md:w-[724px] bg-black  md:h-[500px]
+         rounded-lg relative z-10 md:-mr-20 flex items-center justify-center">
+          <div className="flex flex-col items-center
+            md:absolute -top-10">
+
+            <img
+              src={'/images/collectibles/aura.svg'}
+              className={' md:w-[359px] '}
+
+              alt="NFT"
+
+              />
+            <Button className={'bg-white text-black my-[2em] md:my-[3em]'}
+              textColor={'black'}>Claim Guardian</Button>
+          </div>
+        </div>
 
         {/* PERKS Section */}
         <div className="w-full md:w-[622px] bg-black py-[2em] px-[2em]  md:h-[380px] rounded-3xl  top-10 left-10 md:static md:top-auto md:left-auto text-white">

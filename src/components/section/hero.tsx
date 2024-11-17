@@ -3,8 +3,8 @@ import CountDown from "../misc/countDown";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto">
-      <main className="container mx-auto px-4 py-12 md:py-24 flex flex-col md:flex-row items-center gap-12">
+    <div className="container md:ml-[3em]">
+      <main className=" px-4 py-12 md:py-24 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-6">
           <h1 className="text-4xl md:text-4xl kode_mono_font font-bold leading-tight">
             Choose Your Element,

@@ -1,4 +1,3 @@
-
 import PeakCarousel from "./peakCarousel.tsx";
 const PeakSection = () => {
   return (
@@ -14,8 +13,8 @@ const PeakSection = () => {
       ></div>
 
       <div className="w-full py-[5em] bg-primary-300">
-        <div className="container">
-          <PeakCarousel/>
+        <div className="container  mx-auto">
+          <PeakCarousel />
         </div>
       </div>
     </div>
