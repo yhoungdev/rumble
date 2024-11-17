@@ -18,7 +18,9 @@ export default function Partner() {
   return (
     <div className="  text-white font-mono p-8">
       {/* Header */}
-     <TopHeader title={'Our Key Allies'}/>
+     <div className={'container'}>
+       <TopHeader title={'Our Key Allies'}/>
+    </div>
 
       {/* Title */}
       <Typography>PARTNERS</Typography>

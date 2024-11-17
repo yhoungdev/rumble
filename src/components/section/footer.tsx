@@ -25,7 +25,7 @@ function Footer() {
 
           <div
             className={
-              "cursor-pointer w-5 h-5 border-[1.5px] border-white flex items-center justify-center  rounded-full"
+              "cursor-pointer w-5 h-5 border-[2px] border-white flex items-center justify-center  rounded-full"
             }
             onClick={scrollToTop}
           >

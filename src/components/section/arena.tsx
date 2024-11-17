@@ -12,9 +12,9 @@ export default function ArenaSection() {
           ARENA
         </h2>
         <div
-          className="flex flex-col items-center w-full max-w-[800px] h-[60vh]"
+          className="flex flex-col items-center w-full  h-[50vh] md:h-[60vh]"
           style={{
-            backgroundImage: "url(/bg/first_arena.svg)",
+            backgroundImage: "url(/bg/arena_play.svg)",
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
@@ -22,7 +22,7 @@ export default function ArenaSection() {
         ></div>
 
         <div
-          className="flex flex-col items-center w-full max-w-[800px] h-[60vh]"
+          className="flex flex-col items-center w-full  h-[50vh] md:h-[60vh]"
           style={{
             backgroundImage: "url(/bg/arena.svg)",
             backgroundSize: "contain",
