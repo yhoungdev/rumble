@@ -1,5 +1,7 @@
 import Accordion from "../misc/accordion.tsx";
 import Button, { RoundedButton } from "../button";
+import Typography from "../misc/typography.tsx";
+import TopHeader from "../misc/topHeader.tsx";
 
 export default function FaqSection() {
   // Define FAQ items in an array
@@ -22,14 +24,18 @@ export default function FaqSection() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white px-8 py-16 font-sans">
-      <div className="max-w-5xl mx-auto">
+    <div className="min-h-screen  text-white px-8 py-16 font-sans">
+      <div className={'container'}>
+        <TopHeader title={'Clarity from the Depths'} />
+      </div>
+      <div className="container">
+
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl kode_mono_font">FAQ</h1>
+          <Typography>FAQ</Typography>
         </div>
 
-        <div className="flex  items-center justify-between  border-b-2 pb-[1em] mb-12">
+        <div className="flex w-full items-center justify-between  border-b-2 pb-[1em] mb-12">
           <h3 className={"kode_mono_font text-3xl"}>Clarity From Depths</h3>
 
           <RoundedButton>Support</RoundedButton>
@@ -37,7 +43,7 @@ export default function FaqSection() {
 
         {/* Description */}
         <div className="mb-12">
-          <p className="text-gray-400 text-base leading-relaxed max-w-2xl">
+          <p className="text-gray-400 text-base leading-relaxed md:w-[500px]">
             Rumble is an NFT-based knockout tournament game where players mint
             elemental characters and battle through rounds. Each round, winners
             can either split the grand prize or move on to try and become the

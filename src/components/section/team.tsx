@@ -1,10 +1,10 @@
+import Typography from "../misc/typography.tsx";
+
 const Team = () => {
   return (
     <div className="my-[5em]">
       <div className="bg-black  p-8">
-        <h1 className="text-white text-center text-4xl mb-16 kode_mono_font">
-          Team
-        </h1>
+        <Typography>Team</Typography>
         <div
           className="max-w-6xl mx-auto grid grid-cols-1
        md:grid-cols-3 gap-8 "

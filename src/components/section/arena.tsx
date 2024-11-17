@@ -1,16 +1,16 @@
+import TopHeader from "../misc/topHeader.tsx";
+
 export default function ArenaSection() {
   return (
     <div className=" bg-black text-white font-mono px-8 py-[5em]">
-      <div className="mb-8 flex items-center">
-        <div className="w-1 h-6 bg-yellow-500 mr-2" />
-        <h1 className="text-xl">LET THE GAME BEGIN</h1>
-      </div>
 
-      <h2 className="text-5xl font-bold text-center mb-8 kode_mono_font">
-        ARENA
-      </h2>
-
+      <div className={'container'}><TopHeader title={'LET THE GAME BEGIN'} /></div>
       <div className="flex container flex-col items-center gap-12 ">
+
+
+        <h2 className="text-5xl font-bold text-center mb-8 kode_mono_font">
+          ARENA
+        </h2>
         <div
           className="flex flex-col items-center w-full max-w-[800px] h-[60vh]"
           style={{

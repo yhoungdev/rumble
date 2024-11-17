@@ -1,3 +1,6 @@
+import Typography from "../misc/typography.tsx";
+import TopHeader from "../misc/topHeader.tsx";
+
 export default function Partner() {
   const partners1 = [
     { name: "ME", logo: "/images/partners/bear.svg" },
@@ -15,15 +18,10 @@ export default function Partner() {
   return (
     <div className="  text-white font-mono p-8">
       {/* Header */}
-      <div className="mb-8 flex items-center">
-        <div className="w-1 h-6 bg-yellow-500 mr-2" />
-        <h1 className="text-xl">PARTNERS</h1>
-      </div>
+     <TopHeader title={'Our Key Allies'}/>
 
       {/* Title */}
-      <h2 className="text-5xl font-bold text-center mb-8 kode_mono_font">
-        PARTNERS
-      </h2>
+      <Typography>PARTNERS</Typography>
 
       <div className="flex flex-wrap justify-center gap-12">
         <div className="grid grid-cols-2 gap-8">

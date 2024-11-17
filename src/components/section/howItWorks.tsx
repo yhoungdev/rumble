@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import TopHeader from "../misc/topHeader.tsx";
 
 export default function HowItWorks() {
   return (
@@ -6,10 +7,7 @@ export default function HowItWorks() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex justify-between items-center mb-16">
-          <div className="flex items-center space-x-2">
-            <div className="w-0.5 h-6 bg-yellow-500"></div>
-            <span className="text-sm font-light">How It Works</span>
-          </div>
+          <TopHeader title={ 'How It Works' } />
           <button className="bg-white text-black rounded-full px-6 py-2 text-sm font-medium flex items-center space-x-2 hover:bg-gray-100 transition-colors">
             <span>Docs</span>
             <ArrowRight className="w-4 h-4" />
