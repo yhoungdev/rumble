@@ -36,13 +36,11 @@ export default function Partner() {
           ))}
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center md:relative top-[4em]">
           <img
             src="/images/partners/nft.svg"
             alt="Mascot character"
-            width={200}
-            height={200}
-            className="w-58 h-58 md:w-64 md:h-64 animate-float"
+            className="w-[200px] h-[150px] md:w-80 md:h-80 "
           />
         </div>
 
