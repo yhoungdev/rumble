@@ -22,7 +22,7 @@ const PerkCarousel = () => {
         <div className="w-full md:w-[724px] bg-black h-[300px] md:h-[500px] rounded-lg relative z-10 md:-mr-20"></div>
 
         {/* PERKS Section */}
-        <div className="w-full md:w-[622px] bg-black py-[2em] px-[2em] h-[200px] md:h-[380px] rounded-3xl absolute top-10 left-10 md:static md:top-auto md:left-auto text-white">
+        <div className="w-full md:w-[622px] bg-black py-[2em] px-[2em]  md:h-[380px] rounded-3xl  top-10 left-10 md:static md:top-auto md:left-auto text-white">
           <div className={'w-[70%] mx-auto'}>
             <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
               PERKS
