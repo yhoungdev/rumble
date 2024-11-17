@@ -34,7 +34,6 @@ const HeaderNavs = () => {
         </button>
       </div>
 
-      {/* Desktop Navigation */}
       <div className="hidden md:flex items-center gap-8">
         {navLinks.map((link, index) => (
           <a
@@ -45,6 +44,11 @@ const HeaderNavs = () => {
             {link.label}
           </a>
         ))}
+      </div>
+
+      {/* Desktop Navigation */}
+      <div className="hidden md:flex items-center gap-8">
+
         <Button>Whitelist</Button>
       </div>
 
