@@ -6,7 +6,7 @@ const Roadmap = () => {
     {
       phase: "Blueprint",
       date: "Q3 24",
-      avatar: "/api/placeholder/100/100",
+      avatar: "/images/roadmap/4.svg",
       items: [
         "Game Development: We kick off the core development of the Rumble game, focusing on creating the foundational mechanics of the knockout tournament, opponent selection, and elemental battles.",
         "Art Design & Character Creation: Bringing each elemental character to life with unique designs and styles that capture the essence of Rumble's four elements.",
@@ -15,7 +15,23 @@ const Roadmap = () => {
     {
       phase: "The Battlefront",
       date: "Q4 24",
-      avatar: "/api/placeholder/100/100",
+      avatar: "/images/roadmap/3.svg",
+      items: [
+        "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
+      ],
+    },
+    {
+      phase: "The Battlefront",
+      date: "Q4 24",
+      avatar: "/images/roadmap/2.svg",
+      items: [
+        "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
+      ],
+    },
+    {
+      phase: "The Battlefront",
+      date: "Q4 24",
+      avatar: "/images/roadmap/1.svg",
       items: [
         "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
       ],
