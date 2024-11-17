@@ -1,6 +1,7 @@
 import Button from "../button";
 import { useState } from "react";
-import CarouselPagination from "../misc/carouselPagination.tsx";
+import CarouselPagination from "../misc/carouselPagination";
+
 const perks = [
   {
     title: "Healing Aura",
@@ -20,13 +21,13 @@ const perks = [
 ];
 
 const carouselImgs = [
-  "/images/collectibles/aura.svg ",
+  "/images/collectibles/aura.svg",
   "/images/collectibles/aura2.svg",
 ];
 
 const PerkCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 5;
+  const totalSlides = carouselImgs.length;
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % totalSlides);
@@ -36,25 +37,19 @@ const PerkCarousel = () => {
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
-  const goToSlide = (index) => {
-    setCurrentSlide(index);
-  };
   return (
-    <div className="w-full mx-auto  ">
+    <div className="w-full mx-auto">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
-        {/* Black Box with Perspective */}
+
         <div
-          className="w-full md:w-[724px] bg-black  md:h-[500px]
+          className="w-full md:w-[554px] bg-black md:h-[500px]
          rounded-lg relative z-10 md:-mr-20 flex items-center justify-center"
         >
-          <div
-            className="flex flex-col items-center
-            md:absolute -top-10"
-          >
+          <div className="flex flex-col items-center md:absolute -top-10">
             <img
-              src={"/images/collectibles/aura.svg"}
-              className={" md:w-[359px] "}
-              alt="NFT"
+              src={carouselImgs[currentSlide]}
+              className={"md:w-[359px]"}
+              alt={`Slide ${currentSlide + 1}`}
             />
             <Button
               className={"bg-white text-black my-[2em] md:my-[3em]"}
@@ -66,7 +61,7 @@ const PerkCarousel = () => {
         </div>
 
         {/* PERKS Section */}
-        <div className="w-full md:w-[622px] bg-black py-[2em] px-[2em]  md:h-[380px] rounded-3xl  top-10 left-10 md:static md:top-auto md:left-auto text-white">
+        <div className="w-full md:w-[550px] bg-black py-[2em] px-[2em] md:h-[380px] rounded-3xl top-10 left-10 md:static md:top-auto md:left-auto text-white">
           <div className={"w-[70%] mx-auto"}>
             <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
               PERKS
@@ -85,8 +80,14 @@ const PerkCarousel = () => {
         </div>
       </div>
 
-      <div className={"controller flex items-center justify-center my-[2em]"}>
-        <CarouselPagination/>
+
+      <div className="controller flex items-center justify-center my-[2em]">
+        <CarouselPagination
+          total={totalSlides}
+          current={currentSlide}
+          onNext={nextSlide}
+          onPrevious={prevSlide}
+        />
       </div>
     </div>
   );
