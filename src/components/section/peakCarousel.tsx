@@ -22,7 +22,7 @@ const perks = [
 
 const carouselImgs = [
   "/images/collectibles/aura.svg",
-  "/images/collectibles/aura2.svg",
+  "/images/collectibles/ice_boy.svg",
 ];
 
 const PerkCarousel = () => {
@@ -30,10 +30,12 @@ const PerkCarousel = () => {
   const totalSlides = carouselImgs.length;
 
   const nextSlide = () => {
+
     setCurrentSlide((prev) => (prev + 1) % totalSlides);
   };
 
   const prevSlide = () => {
+
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
