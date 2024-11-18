@@ -34,15 +34,15 @@ const CountDown = () => {
 
   return (
     <div
-      className="w-full bg-red-300 h-[40vh] py-[3em]"
+      className=" bg-blue-600  h-[40vh] py-[3em] "
       style={{
         background: "url(/bg/tournermentbanner.svg)",
         backgroundSize: "contain",
-        backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
+        backgroundPosition: "left",
       }}
     >
-      <div className="w-[75%] text-center mx-auto h-full">
+      <div className="w-[75%]  text-center mx-auto h-full">
         <div className="text-xl md:text-2xl kode_mono_font text-white mb-2">
           TOURNAMENT STARTS IN
         </div>

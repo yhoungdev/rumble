@@ -3,30 +3,31 @@ import CountDown from "../misc/countDown";
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="">
       <main className=" px-4 py-12 md:py-24 flex flex-col md:flex-row items-center gap-12">
-        <div className="flex-1 space-y-6">
-          <h1 className="text-4xl md:text-4xl kode_mono_font font-bold leading-tight">
-            Choose Your Element,
-            <br />
-            Conquer the Tournament!
-          </h1>
-          <p className="text-gray-400 text-lg max-w-xl">
-            Dive into Rumble—a thrilling NFT experience where luck and strategy
-            intertwine! Assemble your team of elemental{" "}
-            <span className="text-red-500">Fire</span>,{" "}
-            <span className="text-blue-500">Water</span>, and{" "}
-            <span className="text-yellow-500">Air</span> and navigate a knockout
-            tournament that challenges your wits and tactics. Will you forge
-            alliances, or go solo for the grand prize?
-          </p>
+        <div className="flex-1 space-y-6 ">
+          <div className={'container  mx-auto  md:ml-[11em]'}>
+            <h1 className="text-4xl md:text-4xl kode_mono_font font-bold leading-tight">
+              Choose Your Element,
+              <br />
+              Conquer the Tournament!
+            </h1>
+            <p className="text-gray-400 text-lg max-w-xl">
+              Dive into Rumble—a thrilling NFT experience where luck and strategy
+              intertwine! Assemble your team of elemental{" "}
+              <span className="text-red-500">Fire</span>,{" "}
+              <span className="text-blue-500">Water</span>, and{" "}
+              <span className="text-yellow-500">Air</span> and navigate a knockout
+              tournament that challenges your wits and tactics. Will you forge
+              alliances, or go solo for the grand prize?
+            </p>
+          </div>
 
-          {/* Tournament Timer */}
           <CountDown />
         </div>
 
-        {/* Hero Image */}
-        <div className="flex-1 ">
+
+        <div className="flex-1 container">
           <img
             src="./images/hero_image.svg"
             alt="Game character with fire effects"
@@ -34,7 +35,6 @@ const Hero = () => {
             objectFit="contain"
             className=""
           />
-          {/* Lightning Effects */}
           <div className="absolute top-1/4 -left-4 w-8 h-16 bg-yellow-400/20 rotate-45 animate-pulse" />
           <div className="absolute bottom-1/4 -right-4 w-8 h-16 bg-yellow-400/20 -rotate-45 animate-pulse" />
         </div>

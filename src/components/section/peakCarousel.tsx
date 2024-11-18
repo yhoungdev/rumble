@@ -1,33 +1,11 @@
 import Button from "../button";
 import { useState } from "react";
 import CarouselPagination from "../misc/carouselPagination";
-
-const perks = [
-  {
-    title: "Healing Aura",
-    description:
-      "Ability: Restores a small percentage of health to itself or allies at the start of each round.",
-  },
-  {
-    title: "Stability Boost",
-    description:
-      "Ability: Temporarily increases the stability of an opponent's characters, making their attacks less effective during their next turn.",
-  },
-  {
-    title: "Nature's Wrath",
-    description:
-      "Ability: Unleashes a powerful area attack that can deal damage to multiple opponents, reflecting the destructive power of nature when provoked.",
-  },
-];
-
-const carouselImgs = [
-  "/images/collectibles/aura.svg",
-  "/images/collectibles/ice_boy.svg",
-];
+import { nftData } from "../../data";
 
 const PerkCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = carouselImgs.length;
+  const totalSlides = nftData.length;
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % totalSlides);
@@ -40,13 +18,14 @@ const PerkCarousel = () => {
   return (
     <div className="w-full mx-auto">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
+        {/* Image Section */}
         <div
           className="w-full md:w-[554px] bg-black md:h-[500px]
          rounded-lg relative z-10 md:-mr-20 flex items-center justify-center"
         >
           <div className="flex flex-col items-center md:absolute -top-10">
             <img
-              src={carouselImgs[currentSlide]}
+              src={nftData[currentSlide].image}
               className={"md:w-[359px]"}
               alt={`Slide ${currentSlide + 1}`}
             />
@@ -66,7 +45,7 @@ const PerkCarousel = () => {
               PERKS
             </h4>
             <ul className="list-none space-y-4">
-              {perks.map((perk, index) => (
+              {nftData[currentSlide].perks.map((perk, index) => (
                 <li key={index}>
                   <span className="text-lg font-bold kode_mono_font">
                     • {perk.title}
@@ -79,6 +58,7 @@ const PerkCarousel = () => {
         </div>
       </div>
 
+      {/* Pagination Controls */}
       <div className="controller flex items-center justify-center my-[2em]">
         <CarouselPagination
           total={totalSlides}
