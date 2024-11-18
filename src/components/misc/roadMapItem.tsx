@@ -1,7 +1,7 @@
 const RoadmapItem = ({ phase, date, description, items, avatar, isLeft }) => {
   return (
     <div
-      className={`flex flex-col md:flex-row ${isLeft ? "md:flex-row" : "md:flex-row-reverse"} items-center md:gap-8 gap-4 mb-24`}
+      className={`flex flex-col md:flex-row ${isLeft ? "md:flex-row" : "md:flex-row-reverse"} items-center md:items-start md:gap-8 gap-4 mb-24`}
     >
       <div className="w-24 h-24 rounded-full bg-white flex-shrink-0 overflow-hidden">
         <img
