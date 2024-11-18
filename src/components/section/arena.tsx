@@ -2,7 +2,7 @@ import TopHeader from "../misc/topHeader.tsx";
 
 export default function ArenaSection() {
   return (
-    <div className=" bg-black text-white font-mono px-8 py-[5em]">
+    <div className=" bg-black side_gradient text-white font-mono px-8 py-[5em]">
 
       <div className={'container'}><TopHeader title={'LET THE GAME BEGIN'} /></div>
       <div className="flex container flex-col items-center gap-12 ">

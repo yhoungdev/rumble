@@ -24,7 +24,10 @@ export default function HowItWorks() {
   ];
 
   return (
-    <div className="min-h-screen  text-white px-8 py-16 font-sans">
+    <div className="min-h-screen rumble  text-white px-8 py-16 font-sans"
+         style={{
+
+         }}>
       <div className={'container'}>
         <TopHeader title={'How It Works'} />
       </div>
