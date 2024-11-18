@@ -4,7 +4,6 @@ import CountDown from "../misc/countDown";
 const Hero = () => {
   return (
     <div className="container">
-
       <main className=" px-4 py-12 md:py-24 flex flex-col md:flex-row items-center gap-12">
         <div className="flex-1 space-y-6">
           <h1 className="text-4xl md:text-4xl kode_mono_font font-bold leading-tight">
@@ -27,16 +26,14 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="flex-1 relative">
-          <div className="relative w-full h-[500px]">
-            <img
-              src="./images/hero_image.svg"
-              alt="Game character with fire effects"
-              layout="fill"
-              objectFit="contain"
-              className="animate-float"
-            />
-          </div>
+        <div className="flex-1 ">
+          <img
+            src="./images/hero_image.svg"
+            alt="Game character with fire effects"
+            layout="fill"
+            objectFit="contain"
+            className=""
+          />
           {/* Lightning Effects */}
           <div className="absolute top-1/4 -left-4 w-8 h-16 bg-yellow-400/20 rotate-45 animate-pulse" />
           <div className="absolute bottom-1/4 -right-4 w-8 h-16 bg-yellow-400/20 -rotate-45 animate-pulse" />

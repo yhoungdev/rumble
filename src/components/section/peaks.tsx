@@ -8,12 +8,13 @@ const PeakSection = () => {
       }
       }>
       <div
-        className="h-[150px]"
+        className="h-[80px]"
         style={{
           backgroundImage: "url(/bg/volcano_bg.svg)",
-          backgroundPosition: "center",
+          backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+
 
         }}
       ></div>
