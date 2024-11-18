@@ -48,8 +48,8 @@ const Roadmap = () => {
       <Typography>ROADMAP</Typography>
 
       <div className="max-w-5xl mx-auto relative">
-        {/* Dotted line connector */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-px border-l-2 border-dotted border-blue-400/30 -translate-x-1/2" />
+
+        {/*<div className="absolute left-1/2 top-0 bottom-0 w-px border-l-2 border-dotted border-blue-400/30 -translate-x-1/2" />*/}
 
         {roadmapData.map((item, index) => (
           <RoadmapItem

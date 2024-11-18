@@ -21,7 +21,7 @@ const PerkCarousel = () => {
         {/* Image Section */}
         <div
           className="w-full md:w-[554px] bg-black md:h-[500px]
-         rounded-lg relative z-10 md:-mr-20 flex items-center justify-center"
+         rounded-2xl relative z-10 md:-mr-20 flex items-center justify-center"
         >
           <div className="flex flex-col items-center md:absolute -top-10">
             <img
