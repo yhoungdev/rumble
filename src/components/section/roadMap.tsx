@@ -39,7 +39,7 @@ const Roadmap = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900 p-8">
+    <div className="min-h-screen roadmap_gradient bg-gray-900 p-8">
 
       <div className={'container'}>
         <TopHeader title={'The Adventure Ahead'} />
