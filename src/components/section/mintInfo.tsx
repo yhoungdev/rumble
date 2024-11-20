@@ -13,11 +13,12 @@ export default function MintInformation() {
         }}
       >
         <div className=" relative">
+          <h1 className={' text-4xl hidden md:text-6xl justify-center kode_mono_font text-black display md:flex '}>Dive Into Aqua Rise</h1>
           <div className="flex flex-col md:flex-row justify-between items-center px-6 py-4 text-white">
             <div className="text-center md:text-left mb-4 md:mb-0 kode_mono_font">
-              <p className="text-lg">4096</p>
-              <p className="text-lg">Elemental Warriors</p>
-              <p className="text-lg">Await</p>
+              <p className="text-3xl text-black md:text-white">4096</p>
+              <p className="text-3xl text-black md:text-white my-1">Elemental Warriors</p>
+              <p className="text-3xl text-black md:text-white">Await</p>
             </div>
 
             <div className="relative flex justify-center items-center">
@@ -31,7 +32,7 @@ export default function MintInformation() {
               <div className="absolute inset-0 bg-white opacity-30 rounded-full blur-2xl" />
             </div>
 
-            <p className="text-lg mt-4 md:mt-0 kode_mono_font">Mp: 0.5 SOL</p>
+            <p className="text-3xl mt-4 md:mt-0 kode_mono_font text-black md:text-white">Mp: 0.5 SOL</p>
           </div>
 
           <div className="flex justify-center pb-6 pt-4">
