@@ -4,15 +4,15 @@ import CountDown from "../misc/countDown";
 const Hero = () => {
   return (
     <div className="">
-      <main className=" px-4 py-12 md:py-24 flex flex-col md:flex-row items-center gap-12">
+      <main className="flex flex-col items-center gap-12 px-4 py-12 md:py-24 md:flex-row">
         <div className="flex-1 space-y-6 ">
           <div className={'container  mx-auto  md:ml-[11em]'}>
-            <h1 className="text-4xl md:text-4xl kode_mono_font font-bold leading-tight">
+            <h1 className="text-4xl font-bold leading-tight md:text-4xl kode_mono_font">
               Choose Your Element,
               <br />
               Conquer the Tournament!
             </h1>
-            <p className="text-gray-400 text-lg max-w-xl">
+            <p className="max-w-xl text-lg text-gray-400">
               Dive into Rumble—a thrilling NFT experience where luck and strategy
               intertwine! Assemble your team of elemental{" "}
               <span className="text-red-500">Fire</span>,{" "}
@@ -23,11 +23,11 @@ const Hero = () => {
             </p>
           </div>
 
-          <CountDown />
+          <CountDown/>
         </div>
 
 
-        <div className="flex-1 container">
+        <div className="container flex-1">
           <img
             src="./images/hero_image.svg"
             alt="Game character with fire effects"
@@ -35,8 +35,8 @@ const Hero = () => {
             objectFit="contain"
             className=""
           />
-          <div className="absolute top-1/4 -left-4 w-8 h-16 bg-yellow-400/20 rotate-45 animate-pulse" />
-          <div className="absolute bottom-1/4 -right-4 w-8 h-16 bg-yellow-400/20 -rotate-45 animate-pulse" />
+          <div className="absolute w-8 h-16 rotate-45 top-1/4 -left-4 bg-yellow-400/20 animate-pulse" />
+          <div className="absolute w-8 h-16 -rotate-45 bottom-1/4 -right-4 bg-yellow-400/20 animate-pulse" />
         </div>
       </main>
     </div>

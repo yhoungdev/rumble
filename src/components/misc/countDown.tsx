@@ -34,19 +34,19 @@ const CountDown = () => {
 
   return (
     <div
-      className=" bg-blue-600  h-[40vh] py-[3em] "
+      className=" bg-blue-600 w-full h-[50vh] py-[5em] "
       style={{
         background: "url(/bg/tournermentbanner.svg)",
-        backgroundSize: "contain",
+        backgroundPosition: 'center',
+        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        backgroundPosition: "left",
       }}
     >
       <div className="w-[75%]  text-center mx-auto h-full">
-        <div className="text-xl md:text-2xl kode_mono_font text-white mb-2">
+        <div className="mb-2 text-xl text-white md:text-2xl kode_mono_font">
           TOURNAMENT STARTS IN
         </div>
-        <div className="flex font-bold kode_mono_font items-center justify-evenly text-3xl">
+        <div className="flex items-center text-3xl font-bold kode_mono_font justify-evenly">
           <span>{timeRemaining.days}D</span>
           <span>{timeRemaining.hours}H</span>
           <span>{timeRemaining.minutes}M</span>
@@ -54,44 +54,21 @@ const CountDown = () => {
         </div>
 
         {/*tilted button*/}
-        <div className="p-8   ">
-          <div className="relative inline-block">
+        <div className="py-[5.5em] ">
+          <div className="relative inline-block -right-[2.5rem]">
             <button
-              className="
-            relative
-            px-8
-            py-3
-            bg-white
-            text-black
-            font-mono
-            kode_mono_font
-            text-md
-            rounded-xl
-            transform
-            rotate-12
-            shadow-lg
-            hover:-rotate-3
-            hover:scale-105
-            transition-all
-            duration-300
-
-          "
+              className="relative  px-8 py-4 font-mono
+                text-black transition-all duration-300 transform
+                 bg-white border-[1.8px] border-black
+                 kode_mono_font text-md rounded-xl rotate-12
+                 shadow-inner
+                hover:-rotate-3 hover:scale-105"
             >
               Join The Rumble
             </button>
             {/* Shadow element */}
             <div
-              className="
-          absolute
-          inset-0
-          bg-black/20
-          rounded-xl
-          transform
-          -rotate-6
-          translate-x-1
-          translate-y-1
-          -z-10
-        "
+              className="absolute  inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10"
             />
           </div>
         </div>
