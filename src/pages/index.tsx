@@ -26,7 +26,7 @@ const IndexHomepage = () => {
         <Hero />
       </div>
       <PeakSection />
-      <ArenaSection />
+      {/*<ArenaSection />*/}
       <HowItWorks />
       <MintInformation />
       <Roadmap />

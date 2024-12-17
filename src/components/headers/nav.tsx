@@ -10,7 +10,7 @@ const HeaderNavs = () => {
     { label: "Characters", href: "#characters" },
     { label: "How It Works", href: "#how-it-works" },
     { label: "Roadmap", href: "#roadmap" },
-    { label: "Arena", href: "/arena" },
+
   ];
 
   const toggleMobileMenu = () => {

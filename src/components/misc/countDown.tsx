@@ -44,13 +44,14 @@ const CountDown = () => {
     >
       <div className="w-[75%]  text-center mx-auto h-full">
         <div className="mb-2 text-xl text-white md:text-2xl kode_mono_font">
-          TOURNAMENT STARTS IN
+          TOURNAMENT IS
         </div>
         <div className="flex items-center text-3xl font-bold kode_mono_font justify-evenly">
-          <span>{timeRemaining.days}D</span>
-          <span>{timeRemaining.hours}H</span>
-          <span>{timeRemaining.minutes}M</span>
-          <span>{timeRemaining.seconds}S</span>
+          {/*<span>{timeRemaining.days}D</span>*/}
+          {/*<span>{timeRemaining.hours}H</span>*/}
+          {/*<span>{timeRemaining.minutes}M</span>*/}
+          {/*<span>{timeRemaining.seconds}S</span>*/}
+          COMING SOON
         </div>
 
         {/*tilted button*/}

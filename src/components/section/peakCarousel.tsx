@@ -26,15 +26,15 @@ const PerkCarousel = () => {
           <div className="flex flex-col items-center md:absolute -top-10">
             <img
               src={nftData[currentSlide].image}
-              className={"md:w-[359px]"}
+              className={"md:w-[450px]"}
               alt={`Slide ${currentSlide + 1}`}
             />
-            <Button
-              className={"bg-white text-black my-[2em] md:my-[3em]"}
-              textColor={"black"}
-            >
-              Claim Guardian
-            </Button>
+            {/*<Button*/}
+            {/*  className={"bg-white text-black my-[2em] md:my-[3em]"}*/}
+            {/*  textColor={"black"}*/}
+            {/*>*/}
+            {/*  Claim Guardian*/}
+            {/*</Button>*/}
           </div>
         </div>
 
