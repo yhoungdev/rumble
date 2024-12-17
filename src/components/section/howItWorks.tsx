@@ -24,21 +24,20 @@ export default function HowItWorks() {
   ];
 
   return (
-    <div className="min-h-screen rumble  text-white px-8 py-16 font-sans"
-         style={{
-
-         }}>
-      <div className={'container'}>
-        <TopHeader title={'How It Works'} />
+    <div
+      className="min-h-screen rumble  text-white px-8 py-16 font-sans"
+      style={{}}
+    >
+      <div className={"container"}>
+        <TopHeader title={"How It Works"} />
       </div>
       <div className="container mt-[2em]">
-
         <div className="flex w-full items-center justify-between  border-b-2 pb-[1em] mb-12">
           <h3 className={"kode_mono_font text-3xl  md:text-5xl"}>RUMBLE</h3>
 
           <RoundedButton>
-            <div className={'flex items-center gap-4'}>
-              DOCS <ArrowRight/>
+            <div className={"flex items-center gap-4"}>
+              DOCS <ArrowRight />
             </div>
           </RoundedButton>
         </div>
@@ -46,7 +45,14 @@ export default function HowItWorks() {
         {/* Description */}
         <div className="mb-12 md:ml-10">
           <p className="text-gray-400 text-base leading-relaxed md:w-[500px]">
-            In Rumble, your journey begins by minting your very own elemental character. Choose from a diverse roster of unique designs, each representing one of the four elements: Fire, Water, Earth, or Air. During the minting process, you'll unlock special abilities and traits that define your character's strengths and weaknesses in battle. Once minted, your character will be ready to face off against other players in the knockout tournament, combining strategy and luck to enhance your chances of victory.
+            In Rumble, your journey begins by minting your very own elemental
+            character. Choose from a diverse roster of unique designs, each
+            representing one of the four elements: Fire, Water, Earth, or Air.
+            During the minting process, you'll unlock special abilities and
+            traits that define your character's strengths and weaknesses in
+            battle. Once minted, your character will be ready to face off
+            against other players in the knockout tournament, combining strategy
+            and luck to enhance your chances of victory.
           </p>
         </div>
 

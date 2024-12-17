@@ -1,12 +1,13 @@
 import PeakCarousel from "./peakCarousel.tsx";
 const PeakSection = () => {
   return (
-    <div className="  w-full  "
-      style={
-      {
-        backgroundAttachment: 'fixed'
-      }
-      }>
+    <div
+      className="  w-full  "
+      id={"characters"}
+      style={{
+        backgroundAttachment: "fixed",
+      }}
+    >
       <div
         className="h-[80px]"
         style={{
@@ -14,8 +15,6 @@ const PeakSection = () => {
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
-
-
         }}
       ></div>
 

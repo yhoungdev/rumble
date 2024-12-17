@@ -2,24 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html {
   scroll-behavior: smooth;
 }
 
-
 .rumble {
-  background: radial-gradient(circle at left center, rgb(229 13 13 / 14%) 10%, rgb(3 3 3 / 14%) 30%, rgb(144 144 144 / 0%) 70%, rgb(0 0 0) 100%);
+  background: radial-gradient(
+    circle at left center,
+    rgb(229 13 13 / 14%) 10%,
+    rgb(3 3 3 / 14%) 30%,
+    rgb(144 144 144 / 0%) 70%,
+    rgb(0 0 0) 100%
+  );
 }
-
 
 .side_gradient {
-
-    background: radial-gradient(circle at right center, rgb(229 13 13 / 14%) 10%, rgb(3 3 3 / 14%) 30%, rgb(144 144 144 / 0%) 70%, rgb(0 0 0) 100%);
-
+  background: radial-gradient(
+    circle at right center,
+    rgb(229 13 13 / 14%) 10%,
+    rgb(3 3 3 / 14%) 30%,
+    rgb(144 144 144 / 0%) 70%,
+    rgb(0 0 0) 100%
+  );
 }
 
-
 .roadmap_gradient {
-
-  background: radial-gradient(circle at right center, rgb(13 158 229 / 15%) 10%, rgb(3 3 3 / 14%) 30%, rgb(144 144 144 / 0%) 70%, rgb(0 0 0) 100%);
+  background: radial-gradient(
+    circle at right center,
+    rgb(13 158 229 / 15%) 10%,
+    rgb(3 3 3 / 14%) 30%,
+    rgb(144 144 144 / 0%) 70%,
+    rgb(0 0 0) 100%
+  );
 }

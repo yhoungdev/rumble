@@ -4,7 +4,6 @@ import Typography from "../misc/typography.tsx";
 import TopHeader from "../misc/topHeader.tsx";
 
 export default function FaqSection() {
-  // Define FAQ items in an array
   const faqItems = [
     {
       title: "What is Rumble?",
@@ -24,12 +23,14 @@ export default function FaqSection() {
   ];
 
   return (
-    <div className="min-h-screen  text-white px-8 py-16 font-sans">
-      <div className={'container'}>
-        <TopHeader title={'Clarity from the Depths'} />
+    <div
+      className="min-h-screen  text-white px-8 py-16 font-sans"
+      id={"how-it-works"}
+    >
+      <div className={"container"}>
+        <TopHeader title={"Clarity from the Depths"} />
       </div>
       <div className="container">
-
         {/* Header */}
         <div className="text-center mb-16">
           <Typography>FAQ</Typography>

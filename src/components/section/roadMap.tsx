@@ -39,16 +39,17 @@ const Roadmap = () => {
   ];
 
   return (
-    <div className="min-h-screen roadmap_gradient bg-gray-900 p-8">
-
-      <div className={'container'}>
-        <TopHeader title={'The Adventure Ahead'} />
+    <div
+      className="min-h-screen roadmap_gradient bg-gray-900 p-8"
+      id={"roadmap"}
+    >
+      <div className={"container"}>
+        <TopHeader title={"The Adventure Ahead"} />
       </div>
 
       <Typography>ROADMAP</Typography>
 
       <div className="max-w-5xl mx-auto relative">
-
         {/*<div className="absolute left-1/2 top-0 bottom-0 w-px border-l-2 border-dotted border-blue-400/30 -translate-x-1/2" />*/}
 
         {roadmapData.map((item, index) => (

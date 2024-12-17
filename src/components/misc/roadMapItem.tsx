@@ -11,7 +11,9 @@ const RoadmapItem = ({ phase, date, description, items, avatar, isLeft }) => {
         />
       </div>
 
-      <div className={`flex-1 ${isLeft ? "text-left" : "text-right"} md:text-${isLeft ? "left" : "right"} text-center`}>
+      <div
+        className={`flex-1 ${isLeft ? "text-left" : "text-right"} md:text-${isLeft ? "left" : "right"} text-center`}
+      >
         <div className="inline-block">
           <div
             className="bg-primary-500 w-fit rounded-xl px-6 py-3 text-black inline-flex items-center
@@ -27,7 +29,7 @@ const RoadmapItem = ({ phase, date, description, items, avatar, isLeft }) => {
           </div>
         </div>
 
-        <div className={'w-full md:w-[500px]'}>
+        <div className={"w-full md:w-[500px]"}>
           <ul
             className={`mt-4 space-y-3 text-gray-200 ${isLeft ? "md:pl-4" : "md:pr-4"} pl-2 pr-2`}
           >

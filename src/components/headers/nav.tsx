@@ -6,10 +6,11 @@ const HeaderNavs = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { label: "Home", href: "#" },
-    { label: "Characters", href: "#" },
-    { label: "How It Works", href: "#" },
-    { label: "Roadmap", href: "#" },
+    { label: "Home", href: "/" },
+    { label: "Characters", href: "#characters" },
+    { label: "How It Works", href: "#how-it-works" },
+    { label: "Roadmap", href: "#roadmap" },
+    { label: "Arena", href: "/arena" },
   ];
 
   const toggleMobileMenu = () => {
@@ -17,9 +18,8 @@ const HeaderNavs = () => {
   };
 
   return (
-    <header className={'container'}>
+    <header className={"container"}>
       <nav className=" container kode_mono_font  px-4 py-6 flex items-center justify-between">
-
         <div className="font-bold text-xl">RUMBLE</div>
 
         {/* Mobile Menu Button */}
@@ -50,7 +50,6 @@ const HeaderNavs = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-
           <Button>Whitelist</Button>
         </div>
 
