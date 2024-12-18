@@ -38,7 +38,6 @@ const PerkCarousel = () => {
           </div>
         </div>
 
-        {/* PERKS Section */}
         <div className="w-full md:w-[550px] bg-black py-[2em] px-[2em] md:h-[380px] rounded-3xl top-10 left-10 md:static md:top-auto md:left-auto text-white">
           <div className={"w-[70%] mx-auto"}>
             <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
