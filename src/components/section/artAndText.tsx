@@ -2,31 +2,31 @@ export default function ArtAndTextSection() {
   const monsters = [
     {
       name: "ZOMBIES",
-      avatars: ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/8717.png", "/images/collectibles/8717.png"]
     },
     {
       name: "VAMPIRES",
-      avatars: ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/9470.png", "/images/collectibles/9653.png"]
     },
     {
       name: "MUMMIES",
-      avatars: ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/9151.png", "/images/collectibles/9091.png"]
     },
     {
       name: "WEREWOLVES",
-      avatars: ["/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/8717.png"]
     },
     {
       name: "FRANKENSTEINS",
-      avatars: ["/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/8764.png"]
     },
     {
       name: "SASQUATCHS",
-      avatars: ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/8717.png", "/images/collectibles/8717.png"]
     },
     {
       name: "CTHULU",
-      avatars: ["/placeholder.svg?height=50&width=50", "/placeholder.svg?height=50&width=50"]
+      avatars: ["/images/collectibles/8888.png", "/images/collectibles/9022.png"]
     },
   ]
 

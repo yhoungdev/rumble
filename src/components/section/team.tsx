@@ -1,4 +1,5 @@
 import Typography from "../misc/typography.tsx";
+import { Twitter , Github, Linkedin } from "lucide-react";
 
 const teamData = [
   {
@@ -65,7 +66,7 @@ const Team = () => {
                   rel="noopener noreferrer"
                   className="text-blue-500"
                 >
-                  Twitter
+                  <Twitter />
                 </a>
                 <a
                   href={member.socials.linkedin}
@@ -73,7 +74,7 @@ const Team = () => {
                   rel="noopener noreferrer"
                   className="text-blue-700"
                 >
-                  LinkedIn
+                  <Linkedin/>
                 </a>
                 <a
                   href={member.socials.github}
@@ -81,7 +82,7 @@ const Team = () => {
                   rel="noopener noreferrer"
                   className="text-gray-500"
                 >
-                  GitHub
+                  <Github />
                 </a>
               </div>
             </div>
