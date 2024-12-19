@@ -5,7 +5,7 @@ const Roadmap = () => {
   const roadmapData = [
     {
       phase: "Blueprint",
-      date: "Q3 24",
+      date: "Q4-24",
       avatar: "/images/roadmap/4.svg",
       items: [
         "Game Development: We kick off the core development of the Rumble game, focusing on creating the foundational mechanics of the knockout tournament, opponent selection, and elemental battles.",
@@ -14,26 +14,36 @@ const Roadmap = () => {
     },
     {
       phase: "The Battlefront",
-      date: "Q4 24",
+      date: "Q1-25",
       avatar: "/images/roadmap/3.svg",
       items: [
         "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
+      `Launch the Collection (4096 NFTs): 
+The tide is rising, and Rumble champions are ready. The official mint begins, bringing our elemental warriors into the hands of their masters. 
+
+Knockout tournament begins.`
       ],
     },
     {
-      phase: "The Battlefront",
-      date: "Q4 24",
+      phase: "Expansion",
+      date: "Q2-25",
       avatar: "/images/roadmap/2.svg",
       items: [
-        "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
+        "Funding Phase: Increase the prize pool, enhancing rewards and creating a larger, more competitive ecosystem for Web3 Communities.",
+        `Sidekick Free Mint: 
+Introduce collectible sidekick companions to enhance player strategy.`,
+        `PVP Battle for NFT Holders: 
+A new one-on-one battle system where Rumble NFT holders can challenge each other and wager funds. Each duel’s outcome is influenced by NFT elemental strengths, adding strategic depth and rewarding skillful play.`
       ],
     },
     {
-      phase: "The Battlefront",
-      date: "Q4 24",
+      phase: "New World",
+      date: "Q2-25",
       avatar: "/images/roadmap/1.svg",
       items: [
-        "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
+        "Season 2 Launch: Introducing bigger prizes, new characters and challenges for a fresh game experience.",
+
+        `Community Event:  Host a large-scale event with giveaways and community-building activities.`
       ],
     },
   ];
