@@ -3,9 +3,8 @@ export const nftData = [
     image: "/images/collectibles/8787.png",
     name: "The Eternal Tides",
     perks: [
-
       {
-        title:  "Aqua and Marina",
+        title: "Aqua and Marina",
         description: `
           Aqua, the unyielding wave, and Marina, the serene lagoon, reflect Water's adaptability and depth. Aqua’s torrential power can drown even the fiercest fires, while Marina’s soothing currents mend and protect. Hailing from the boundless seas, they embody Water’s duality: calm and tempestuous. Their unity ensures that their element always finds a way to flow forward.
 
@@ -50,5 +49,4 @@ export const nftData = [
       },
     ],
   },
-
 ];

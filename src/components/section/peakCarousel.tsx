@@ -15,7 +15,7 @@ const PerkCarousel = () => {
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
-  const [ peakName , setPeakName ] = useState("Peak");
+  const [peakName, setPeakName] = useState("Peak");
 
   return (
     <div className="w-full mx-auto">
