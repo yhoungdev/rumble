@@ -34,12 +34,11 @@ const CountDown = () => {
 
   return (
     <div
-      className=" bg-blue-600 w-full md:h-[50vh] py-[4em] "
+      className="w-full md:h-[65vh] py-[8em] bg-cover md:bg-contain
+        bg-no-repeat"
       style={{
         background: "url(/bg/banner.png)",
         backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="w-[75%]  text-center mx-auto h-full">
@@ -63,12 +62,13 @@ const CountDown = () => {
                  bg-white border-[1.8px] border-black
                  kode_mono_font text-md rounded-xl rotate-12
                  shadow-inner
-                hover:-rotate-3 hover:scale-105"
+                hover:-rotate-3 hover:scale-105  mt-[4em] md:mt-[2em]"
             >
               Join The Rumble
             </button>
             {/* Shadow element */}
-            <div className="absolute inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10" />
+            <div
+              className="absolute inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10" />
           </div>
         </div>
       </div>
