@@ -96,3 +96,28 @@ html {
     transform: translateX(100%);
   }
 }
+
+
+.scroll-item {
+  opacity: 0;
+  transform: translateX(0);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.scroll-item.scroll-left.animate-scroll {
+  opacity: 1;
+  transform: translateX(-100px);
+}
+
+.scroll-item.scroll-right.animate-scroll {
+  opacity: 1;
+  transform: translateX(100px);
+}
+
+.scroll-left {
+  transform: translateX(100px);
+}
+
+.scroll-right {
+  transform: translateX(-100px);
+}
