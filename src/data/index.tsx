@@ -27,4 +27,37 @@ export const nftData = [
       },
     ],
   },
+  {
+    image: "/images/collectibles/8888.png",
+    perks: [
+      {
+        title: "Ignis and Pyra - The Flames of Rebirth\n",
+        description: `
+            Ignis, the roaring inferno, and Pyra, the guiding spark, are the twin embodiments of Fire's relentless energy. Born from the heart of volcanoes, their flames signify both destruction and renewal. Ignis wields unyielding rage to scorch his foes, while Pyra’s calm control offers a burning determination. Together, they carry the fiery ambition of their kind, tempered by an unspoken rivalry.
+          `,
+      },
+    ],
+  },
+  {
+    image: "/images/collectibles/8888.png",
+    perks: [
+      {
+        title: "Ignis and Pyra - The Flames of Rebirth\n",
+        description: `
+            Ignis, the roaring inferno, and Pyra, the guiding spark, are the twin embodiments of Fire's relentless energy. Born from the heart of volcanoes, their flames signify both destruction and renewal. Ignis wields unyielding rage to scorch his foes, while Pyra’s calm control offers a burning determination. Together, they carry the fiery ambition of their kind, tempered by an unspoken rivalry.
+          `,
+      },
+    ],
+  },
+  {
+    image: "/images/collectibles/8888.png",
+    perks: [
+      {
+        title: "Ignis and Pyra - The Flames of Rebirth\n",
+        description: `
+            Ignis, the roaring inferno, and Pyra, the guiding spark, are the twin embodiments of Fire's relentless energy. Born from the heart of volcanoes, their flames signify both destruction and renewal. Ignis wields unyielding rage to scorch his foes, while Pyra’s calm control offers a burning determination. Together, they carry the fiery ambition of their kind, tempered by an unspoken rivalry.
+          `,
+      },
+    ],
+  },
 ];
