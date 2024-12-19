@@ -13,7 +13,7 @@ export default function ArenaSection() {
         <div
           className="flex flex-col items-center w-full  h-[50vh] md:h-[60vh]"
           style={{
-            backgroundImage: "url(/bg/arena_play.svg)",
+            backgroundImage: "url(/bg/arena_comming_soon.png)",
             backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",
