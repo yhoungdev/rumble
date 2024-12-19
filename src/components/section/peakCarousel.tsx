@@ -18,7 +18,6 @@ const PerkCarousel = () => {
   return (
     <div className="w-full mx-auto">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
-        {/* Image Section */}
         <div
           className="w-full md:w-[554px] bg-black md:h-[500px]
          rounded-2xl relative z-10 md:-mr-20 flex items-center justify-center"
@@ -29,6 +28,8 @@ const PerkCarousel = () => {
               className={"md:w-[450px]"}
               alt={`Slide ${currentSlide + 1}`}
             />
+
+            <h4 className={'kode_mono_font text-xl md:text-2xl mt-4'}>Earth</h4>
             {/*<Button*/}
             {/*  className={"bg-white text-black my-[2em] md:my-[3em]"}*/}
             {/*  textColor={"black"}*/}

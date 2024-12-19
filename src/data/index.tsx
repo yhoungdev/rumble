@@ -7,11 +7,13 @@ const perksMapping = {
   "aura.svg": [
     {
       title: "Healing Aura",
+      header: "Healing Aura",
       description:
         "Ability: Restores a small percentage of health to itself or allies at the start of each round.",
     },
     {
       title: "Stability Boost",
+      header: "Healing Aura",
       description:
         "Ability: Temporarily increases the stability of an opponent's characters, making their attacks less effective during their next turn.",
     },
@@ -48,10 +50,10 @@ const generateRandomPerk = () => {
 };
 
 export const nftData = Object.entries(images).map(([path, module]) => {
-  const filename = path.split("/").pop(); // Extract the filename (e.g., aura.svg)
+  const filename = path.split("/").pop();
   const perks =
     perksMapping[filename] ||
-    Array.from({ length: 2 }, () => generateRandomPerk()); // Generate 2 random perks
+    Array.from({ length: 2 }, () => generateRandomPerk());
 
   return {
     image: path.replace("/public", ""),
