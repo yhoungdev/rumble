@@ -64,7 +64,7 @@ const Team = () => {
                   href={member.socials.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500"
+                  className="text-gray-500 hover:text-primary-500"
                 >
                   <Twitter />
                 </a>
@@ -72,7 +72,7 @@ const Team = () => {
                   href={member.socials.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-700"
+                  className="text-gray-500 hover:text-primary-500"
                 >
                   <Linkedin/>
                 </a>
@@ -80,7 +80,7 @@ const Team = () => {
                   href={member.socials.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-500"
+                  className="text-gray-500 hover:text-primary-500"
                 >
                   <Github />
                 </a>
