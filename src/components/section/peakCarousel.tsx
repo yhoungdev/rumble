@@ -15,6 +15,8 @@ const PerkCarousel = () => {
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
 
+  const [ peakName , setPeakName ] = useState("Peak");
+
   return (
     <div className="w-full mx-auto">
       <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
@@ -41,7 +43,7 @@ const PerkCarousel = () => {
         <div className="w-full md:w-[550px] bg-black py-[2em] px-[2em] md:h-[380px] rounded-3xl top-10 left-10 md:static md:top-auto md:left-auto text-white">
           <div className={"w-[70%] mx-auto"}>
             <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
-              PERKS
+              {nftData[currentSlide].name}
             </h4>
             <ul className="list-none space-y-4">
               {nftData[currentSlide].perks.map((perk, index) => (
