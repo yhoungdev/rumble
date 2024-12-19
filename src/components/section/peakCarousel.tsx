@@ -29,7 +29,6 @@ const PerkCarousel = () => {
               alt={`Slide ${currentSlide + 1}`}
             />
 
-            <h4 className={'kode_mono_font text-xl md:text-2xl mt-4'}>Earth</h4>
             {/*<Button*/}
             {/*  className={"bg-white text-black my-[2em] md:my-[3em]"}*/}
             {/*  textColor={"black"}*/}

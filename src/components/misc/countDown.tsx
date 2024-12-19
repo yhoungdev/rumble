@@ -39,7 +39,6 @@ const CountDown = () => {
       style={{
         backgroundImage: "url(/bg/banner.png)",
         backgroundPosition: "center",
-
       }}
     >
       <div className="w-[75%]  text-center mx-auto h-full">
