@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "../button";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const HeaderNavs = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,7 +22,9 @@ const HeaderNavs = () => {
   return (
     <header className={"container"}>
       <nav className=" container kode_mono_font  px-4 py-6 flex items-center justify-between">
-        <div className="font-bold text-xl">RUMBLE</div>
+        <Link to={'/'}>
+          <div className="font-bold text-xl">RUMBLE</div>
+        </Link>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
