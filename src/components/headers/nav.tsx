@@ -22,16 +22,13 @@ const HeaderNavs = () => {
 
   const handleNavigation = (href: string) => {
     if (href.startsWith("#")) {
-
       if (location.pathname !== "/") {
         navigate("/", { state: { target: href } });
       } else {
-
         const targetElement = document.querySelector(href);
         targetElement?.scrollIntoView({ behavior: "smooth" });
       }
     } else {
-
       navigate(href);
     }
     setIsMobileMenuOpen(false);
@@ -41,7 +38,15 @@ const HeaderNavs = () => {
     <header className={"container"}>
       <nav className="container kode_mono_font px-4 py-6 flex items-center justify-between">
         <Link to="/">
-          <div className="font-bold text-xl">RUMBLE</div>
+          <div className="flex items-center gap-2">
+            <img
+              src={"/logo/footer_logo.svg"}
+              alt="logo"
+              width={80}
+              height={80}
+            />
+            <div className="font-bold text-xl">RUMBLE</div>
+          </div>
         </Link>
 
         {/* Mobile Menu Button */}
@@ -69,7 +74,6 @@ const HeaderNavs = () => {
             </button>
           ))}
         </div>
-
 
         <div className="hidden md:flex items-center gap-8">
           <Button>Whitelist</Button>
