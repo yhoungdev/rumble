@@ -27,7 +27,7 @@ const IndexHomepage = () => {
       </div>
       <PeakSection />
       <HowItWorks />
-      <MintInformation />
+
       <Roadmap />
       <FaqSection />
       <Team />

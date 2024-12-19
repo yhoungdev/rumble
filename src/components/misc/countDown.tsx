@@ -34,7 +34,7 @@ const CountDown = () => {
 
   return (
     <div
-      className="w-full md:h-[50vh] py-[3em]  bg-cover
+      className="w-full md:h-[50vh] py-[4em]  bg-cover
         bg-no-repeat"
       style={{
         backgroundImage: "url(/bg/banner.png)",
@@ -55,7 +55,7 @@ const CountDown = () => {
         </div>
 
         {/*tilted button*/}
-        <div className=" py-[2em] md:py-[5.5em] ">
+        <div className=" py-[2em] md:py-[6em] ">
           <div className="relative inline-block -right-[2.5rem]">
             <button
               className="relative  px-8 py-4 font-mono
