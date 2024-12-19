@@ -49,7 +49,7 @@ const PerkCarousel = () => {
                   <span className="text-lg font-bold kode_mono_font">
                     • {perk.title}
                   </span>
-                  <p className="text-[10px]">{perk.description}</p>
+                  <p className="text-xs mt-1 ">{perk.description}</p>
                 </li>
               ))}
             </ul>
