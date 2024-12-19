@@ -1,10 +1,12 @@
 import { useState } from "react";
 import Button from "../button";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const HeaderNavs = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
   const navLinks = [
     { label: "Home", href: "/" },
@@ -18,10 +20,27 @@ const HeaderNavs = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
+  const handleNavigation = (href: string) => {
+    if (href.startsWith("#")) {
+
+      if (location.pathname !== "/") {
+        navigate("/", { state: { target: href } });
+      } else {
+
+        const targetElement = document.querySelector(href);
+        targetElement?.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+
+      navigate(href);
+    }
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <header className={"container"}>
-      <nav className=" container kode_mono_font  px-4 py-6 flex items-center justify-between">
-        <Link to={"/"}>
+      <nav className="container kode_mono_font px-4 py-6 flex items-center justify-between">
+        <Link to="/">
           <div className="font-bold text-xl">RUMBLE</div>
         </Link>
 
@@ -41,34 +60,32 @@ const HeaderNavs = () => {
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link, index) => (
-            <a
+            <button
               key={index}
+              onClick={() => handleNavigation(link.href)}
               className="hover:text-red-500 transition-colors"
-              href={link.href}
             >
               {link.label}
-            </a>
+            </button>
           ))}
         </div>
 
-        {/* Desktop Navigation */}
+
         <div className="hidden md:flex items-center gap-8">
           <Button>Whitelist</Button>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="absolute top-16 left-0 w-full bg-white shadow-lg z-50 md:hidden">
             <div className="flex flex-col items-center gap-4 py-4">
               {navLinks.map((link, index) => (
-                <a
+                <button
                   key={index}
+                  onClick={() => handleNavigation(link.href)}
                   className="text-gray-800 hover:text-red-500 transition-colors"
-                  href={link.href}
-                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}
-                </a>
+                </button>
               ))}
               <Button onClick={() => setIsMobileMenuOpen(false)}>
                 Whitelist

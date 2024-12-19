@@ -67,8 +67,7 @@ const CountDown = () => {
               Join The Rumble
             </button>
             {/* Shadow element */}
-            <div
-              className="absolute inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10" />
+            <div className="absolute inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10" />
           </div>
         </div>
       </div>
