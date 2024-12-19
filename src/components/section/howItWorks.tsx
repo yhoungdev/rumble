@@ -35,11 +35,11 @@ export default function HowItWorks() {
         <div className="flex w-full items-center justify-between  border-b-2 pb-[1em] mb-12">
           <h3 className={"kode_mono_font text-3xl  md:text-5xl"}>RUMBLE</h3>
 
-          <RoundedButton>
-            <div className={"flex items-center gap-4"}>
-              DOCS <ArrowRight />
-            </div>
-          </RoundedButton>
+          {/*<RoundedButton>*/}
+          {/*  <div className={"flex items-center gap-4"}>*/}
+          {/*    DOCS <ArrowRight />*/}
+          {/*  </div>*/}
+          {/*</RoundedButton>*/}
         </div>
 
         {/* Description */}
