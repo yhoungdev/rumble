@@ -34,7 +34,7 @@ const CountDown = () => {
 
   return (
     <div
-      className=" bg-blue-600 w-[90%] md:h-[50vh] py-[4em] "
+      className=" bg-blue-600 w-full md:h-[50vh] py-[4em] "
       style={{
         background: "url(/bg/banner.png)",
         backgroundPosition: "center",
