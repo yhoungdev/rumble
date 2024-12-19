@@ -41,7 +41,7 @@ export default function ArtAndTextSection() {
         {monsters.map((monster, index) => (
           <div
             key={monster.name}
-            className={`flex items-center gap-2 w-full justify-center scroll-item ${
+            className={`flex flex-wrap items-center gap-2 w-full justify-center scroll-item ${
               index % 2 === 0 ? "scroll-left" : "scroll-right"
             }`}
           >
@@ -57,7 +57,7 @@ export default function ArtAndTextSection() {
         ))}
       </div>
 
-      <div className="mt-12 max-w-md text-center text-gray-300 space-y-2">
+      <div className="mt-12 max-w-md text-center text-gray-300 space-y-1">
         <p>There are 8 kind of monsters, But we hide 35 extra</p>
         <p>special, super rare, really unique versions in the collection</p>
         <p>Look for the divers and astronauts!</p>

@@ -48,55 +48,11 @@ html {
   animation: float 4s ease-in-out infinite;
 }
 
-.scroll-item {
-  opacity: 0.5;
-  transition: opacity 0.3s;
-}
 
-.scroll-item.in-view {
-  opacity: 1;
-}
 
-.scroll-item {
-  height: 100px;
-}
 
-.scroll-container {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  animation-duration: 4s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  will-change: transform;
-}
 
-.scroll-left {
-  animation-name: scrollLeft;
-}
-
-.scroll-right {
-  animation-name: scrollRight;
-}
-
-@keyframes scrollLeft {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes scrollRight {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
+/*effect*/
 
 .scroll-item {
   opacity: 0;
@@ -106,18 +62,19 @@ html {
 
 .scroll-item.scroll-left.animate-scroll {
   opacity: 1;
-  transform: translateX(-100px);
+  transform: translateX(-20px);
 }
 
 .scroll-item.scroll-right.animate-scroll {
   opacity: 1;
-  transform: translateX(100px);
+  transform: translateX(20px);
 }
 
 .scroll-left {
-  transform: translateX(100px);
+  transform: translateX(10px);
 }
 
 .scroll-right {
   transform: translateX(-100px);
 }
+
