@@ -34,9 +34,9 @@ const CountDown = () => {
 
   return (
     <div
-      className=" bg-blue-600 w-full h-[50vh] py-[5em] "
+      className=" bg-blue-600 w-[90%] md:h-[50vh] py-[4em] "
       style={{
-        background: "url(/bg/tournermentbanner.svg)",
+        background: "url(/bg/banner.png)",
         backgroundPosition: "center",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
@@ -68,7 +68,7 @@ const CountDown = () => {
               Join The Rumble
             </button>
             {/* Shadow element */}
-            <div className="absolute  inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10" />
+            <div className="absolute inset-0 transform translate-x-1 translate-y-1 bg-black/20 rounded-xl -rotate-6 -z-10" />
           </div>
         </div>
       </div>
