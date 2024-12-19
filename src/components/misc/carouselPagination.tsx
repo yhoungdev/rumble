@@ -17,16 +17,22 @@ export default function CarouselPagination({
       <ArrowLeftIcon onClick={onNext} />
 
       <div className="flex gap-3">
-        {Array.from({ length: total }).map((_, index) => (
-          <div
-            key={index}
-            className={`h-4 w-4 rounded-full ${
-              index === current - 1 ? "bg-[#E84B29]" : "bg-white"
-            }`}
-            aria-current={index === current - 1 ? "page" : undefined}
-          />
-        ))}
+        {Array.from({ length: total })
+          .slice(
+            window.innerWidth <= 640 && total > 4 ? 2 : 0,
+            window.innerWidth <= 640 && total > 4 ? 4 : total
+          )
+          .map((_, index) => (
+            <div
+              key={index}
+              className={`w-2 h-2 md:h-4 md:w-4 rounded-full ${
+                index === current - 1 ? "bg-[#E84B29]" : "bg-white"
+              }`}
+              aria-current={index === current - 1 ? "page" : undefined}
+            />
+          ))}
       </div>
+
 
       <ArrowRightIcon onClick={onPrevious} />
     </div>
