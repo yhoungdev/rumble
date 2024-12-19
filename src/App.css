@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.art{
+  background: radial-gradient(circle at right center, rgb(111 228 86 / 14%) 10%, rgb(3 3 3 / 14%) 30%, rgb(144 144 144 / 0%) 70%, rgb(0 0 0) 100%);
+}
+
 .rumble {
   background: radial-gradient(
     circle at left center,

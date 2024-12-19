@@ -31,10 +31,10 @@ export default function ArtAndTextSection() {
   ]
 
   return (
-    <div className="min-h-screen bg-purple-950 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen  art  flex flex-col items-center justify-center p-4">
       <div className="text-xs text-green-300 mb-8">CLANS</div>
 
-      <div className="max-w-2xl w-full flex flex-col items-center gap-2">
+      <div className="max-w-2xl kode_mono_font w-full flex flex-col items-center gap-2">
         {monsters.map((monster, index) => (
           <div
             key={monster.name}
