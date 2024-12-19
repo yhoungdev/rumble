@@ -12,7 +12,6 @@ const HeaderNavs = () => {
     { label: "How It Works", href: "#how-it-works" },
     { label: "Roadmap", href: "#roadmap" },
     { label: "Arena", href: "/arena" },
-
   ];
 
   const toggleMobileMenu = () => {
@@ -22,7 +21,7 @@ const HeaderNavs = () => {
   return (
     <header className={"container"}>
       <nav className=" container kode_mono_font  px-4 py-6 flex items-center justify-between">
-        <Link to={'/'}>
+        <Link to={"/"}>
           <div className="font-bold text-xl">RUMBLE</div>
         </Link>
 

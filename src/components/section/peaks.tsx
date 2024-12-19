@@ -1,4 +1,5 @@
 import PeakCarousel from "./peakCarousel.tsx";
+import TopHeader from "../misc/topHeader.tsx";
 const PeakSection = () => {
   return (
     <div
@@ -20,6 +21,9 @@ const PeakSection = () => {
 
       <div className="w-full py-[5em] bg-primary-300">
         <div className="container  mx-auto">
+          <div className={"mb-[10em] mt-[6em]"}>
+            <TopHeader title={"Characters"} />
+          </div>
           <PeakCarousel />
         </div>
       </div>

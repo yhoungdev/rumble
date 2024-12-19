@@ -1,11 +1,12 @@
 import Typography from "../misc/typography.tsx";
-import { Twitter , Github, Linkedin } from "lucide-react";
+import { Twitter, Github, Linkedin } from "lucide-react";
 
 const teamData = [
   {
     name: "AyeTee",
     image: "/images/teams/ayetee.svg",
-    content: "AyeTee is a passionate developer who loves crafting intuitive user experiences.",
+    content:
+      "AyeTee is a passionate developer who loves crafting intuitive user experiences.",
     alt: "AyeTee profile",
     socials: {
       twitter: "https://twitter.com/AyeTee",
@@ -16,7 +17,8 @@ const teamData = [
   {
     name: "Wayne",
     image: "/images/teams/gunna.svg",
-    content: "Wayne is a skilled backend engineer, ensuring scalability and performance.",
+    content:
+      "Wayne is a skilled backend engineer, ensuring scalability and performance.",
     alt: "Wayne profile",
     socials: {
       twitter: "https://twitter.com/Wayne",
@@ -27,7 +29,8 @@ const teamData = [
   {
     name: "Gunna",
     image: "/images/teams/wayne.svg",
-    content: "Gunna specializes in data analysis and brings valuable insights to the team.",
+    content:
+      "Gunna specializes in data analysis and brings valuable insights to the team.",
     alt: "Gunna profile",
     socials: {
       twitter: "https://twitter.com/Gunna",
@@ -57,7 +60,9 @@ const Team = () => {
                   className="w-full"
                 />
               </div>
-              <h2 className="text-white kode_mono_font text-2xl mt-4">{member.name}</h2>
+              <h2 className="text-white kode_mono_font text-2xl mt-4">
+                {member.name}
+              </h2>
               <p className="text-gray-400 text-center mt-2">{member.content}</p>
               <div className="flex space-x-4 mt-4">
                 <a
@@ -74,7 +79,7 @@ const Team = () => {
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-primary-500"
                 >
-                  <Linkedin/>
+                  <Linkedin />
                 </a>
                 <a
                   href={member.socials.github}

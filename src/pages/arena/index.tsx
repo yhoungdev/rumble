@@ -4,12 +4,12 @@ import HeaderNavs from "../../components/headers/nav.tsx";
 
 function ArenaPage(props) {
   return (
-   <>
-     <HeaderNavs/>
-     <ArenaSection/>
-     <Footer />
-   </>
+    <>
+      <HeaderNavs />
+      <ArenaSection />
+      <Footer />
+    </>
   );
 }
 
-export default ArenaPage
+export default ArenaPage;

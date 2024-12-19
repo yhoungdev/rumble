@@ -20,7 +20,7 @@ export default function CarouselPagination({
         {Array.from({ length: total })
           .slice(
             window.innerWidth <= 640 && total > 4 ? 2 : 0,
-            window.innerWidth <= 640 && total > 4 ? 4 : total
+            window.innerWidth <= 640 && total > 4 ? 4 : total,
           )
           .map((_, index) => (
             <div
@@ -32,7 +32,6 @@ export default function CarouselPagination({
             />
           ))}
       </div>
-
 
       <ArrowRightIcon onClick={onPrevious} />
     </div>

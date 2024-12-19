@@ -1,6 +1,7 @@
-
-const images: Record<string, unknown> = import.meta.glob("/public/images/collectibles/*", { eager: true });
-
+const images: Record<string, unknown> = import.meta.glob(
+  "/public/images/collectibles/*",
+  { eager: true },
+);
 
 const perksMapping = {
   "aura.svg": [
@@ -45,7 +46,6 @@ const generateRandomPerk = () => {
       randomDescriptions[Math.floor(Math.random() * randomDescriptions.length)],
   };
 };
-
 
 export const nftData = Object.entries(images).map(([path, module]) => {
   const filename = path.split("/").pop(); // Extract the filename (e.g., aura.svg)
