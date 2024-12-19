@@ -3,11 +3,7 @@ export const nftData = [
     image: "/images/collectibles/8787.png",
     name: "The Eternal Tides",
     perks: [
-      {
-        title: "Healing Aura",
-        description:
-          "Ability: Restores a small percentage of health to itself or allies at the start of each round.",
-      },
+
       {
         title:  "Aqua and Marina",
         description: `
@@ -31,38 +27,28 @@ export const nftData = [
   },
   {
     image: "/images/collectibles/8888.png",
-    name: "The Eternal Tides",
+    name: "The Whispering Winds",
     perks: [
       {
-        title: "Ignis and Pyra - The Flames of Rebirth\n",
+        title: "Zephyr and Aero ",
+
         description: `
-            Ignis, the roaring inferno, and Pyra, the guiding spark, are the twin embodiments of Fire's relentless energy. Born from the heart of volcanoes, their flames signify both destruction and renewal. Ignis wields unyielding rage to scorch his foes, while Pyra’s calm control offers a burning determination. Together, they carry the fiery ambition of their kind, tempered by an unspoken rivalry.
-          `,
+          Zephyr, the mischievous breeze, and Aero, the commanding gale, are the embodiments of Air’s freedom and unpredictability. Zephyr’s agility confounds opponents, while Aero’s raw force sweeps away all resistance. Born from the skies and the breath of storms, they embrace chaos as their ally, weaving through battles with ease.
+
+        `,
       },
     ],
   },
   {
     image: "/images/collectibles/8888.png",
-    name: "The Eternal Tides",
+    name: "The Guardians of the Land\n",
     perks: [
       {
-        title: "Ignis and Pyra - The Flames of Rebirth\n",
-        description: `
-            Ignis, the roaring inferno, and Pyra, the guiding spark, are the twin embodiments of Fire's relentless energy. Born from the heart of volcanoes, their flames signify both destruction and renewal. Ignis wields unyielding rage to scorch his foes, while Pyra’s calm control offers a burning determination. Together, they carry the fiery ambition of their kind, tempered by an unspoken rivalry.
-          `,
+        title: "Terra and Gaia",
+        description: `Terra, the steadfast mountain, and Gaia, the nurturing soil, represent Earth’s enduring strength and life-giving power. Terra’s strikes echo with the weight of tectonic force, while Gaia’s gentle touch revitalizes her allies. Emerging from the ancient forests and cliffs, they are unshakable protectors of the natural world, rooted in their purpose.
+`,
       },
     ],
   },
-  {
-    image: "/images/collectibles/8888.png",
-    name: "The Eternal Tides",
-    perks: [
-      {
-        title: "Ignis and Pyra - The Flames of Rebirth\n",
-        description: `
-            Ignis, the roaring inferno, and Pyra, the guiding spark, are the twin embodiments of Fire's relentless energy. Born from the heart of volcanoes, their flames signify both destruction and renewal. Ignis wields unyielding rage to scorch his foes, while Pyra’s calm control offers a burning determination. Together, they carry the fiery ambition of their kind, tempered by an unspoken rivalry.
-          `,
-      },
-    ],
-  },
+
 ];

@@ -30,6 +30,9 @@ const PerkCarousel = () => {
               className={"md:w-[450px]"}
               alt={`Slide ${currentSlide + 1}`}
             />
+            <span className="text-lg font-bold kode_mono_font mt-2">
+              {nftData[currentSlide].perks[0].title}
+            </span>
 
             {/*<Button*/}
             {/*  className={"bg-white text-black my-[2em] md:my-[3em]"}*/}
@@ -48,9 +51,6 @@ const PerkCarousel = () => {
             <ul className="list-none space-y-4">
               {nftData[currentSlide].perks.map((perk, index) => (
                 <li key={index}>
-                  <span className="text-lg font-bold kode_mono_font">
-                    • {perk.title}
-                  </span>
                   <p className="text-xs mt-1 ">{perk.description}</p>
                 </li>
               ))}
