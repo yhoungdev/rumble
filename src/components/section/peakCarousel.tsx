@@ -29,7 +29,7 @@ const PerkCarousel = () => {
           <div className="flex flex-col items-center md:absolute -top-10">
             <img
               src={nftData[currentSlide].image}
-              className={"md:w-[450px]"}
+              className={"md:w-[450px] rounded-2xl"}
               alt={`Slide ${currentSlide + 1}`}
             />
 
@@ -38,12 +38,12 @@ const PerkCarousel = () => {
                 {nftData[currentSlide].perks[0].title}
               </span>
 
-              <span className={"flex items-center justify-center gap-1 mt-2"}>
-                <RatingStateSvg />
-                <p className={"font-semibold text-xs"}>
-                  {nftData[currentSlide].rating}
-                </p>
-              </span>
+              {/*<span className={"flex items-center justify-center gap-1 mt-2"}>*/}
+              {/*  <RatingStateSvg />*/}
+              {/*  <p className={"font-semibold text-xs"}>*/}
+              {/*    {nftData[currentSlide].rating}*/}
+              {/*  </p>*/}
+              {/*</span>*/}
             </div>
 
             {/*<Button*/}

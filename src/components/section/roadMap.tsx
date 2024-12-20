@@ -36,14 +36,14 @@ const Roadmap = () => {
         `Rallying the elemental forces—building a passionate community around the tournament. Allowlist spots, giveaways, and special events will flow like currents through our community.`,
       ],
     },
-    {
-      phase: "Knockout Tournament Begins",
-      date: "5",
-      avatar: "/images/roadmap/1.svg",
-      items: [
-        `The elemental forces clash! Players will select their opponents, strategize their battles, and fight their way through each round as the pool of contestants shrinks by half.`,
-      ],
-    },
+    // {
+    //   phase: "Knockout Tournament Begins",
+    //   date: "5",
+    //   avatar: "/images/roadmap/1.svg",
+    //   items: [
+    //     `The elemental forces clash! Players will select their opponents, strategize their battles, and fight their way through each round as the pool of contestants shrinks by half.`,
+    //   ],
+    // },
     // {
     //   phase: "Battle Buffs Unleashed",
     //   date: "6",
@@ -67,11 +67,9 @@ const Roadmap = () => {
       <Typography>ROADMAP</Typography>
 
       <div
-        className="relative max-w-5xl mx-auto"
-        style={{
-          backgroundImage: `url(/bg/line.png)`,
-          backgroundRepeat: "no-repeat",
-        }}
+        className="relative max-w-5xl mx-auto
+          lg:bg-[url(/bg/line.png)] bg-no-repeat bg-contain bg-center "
+
       >
         {roadmapData.map((item, index, array) => {
           const isLastItem = index === array.length - 1;
