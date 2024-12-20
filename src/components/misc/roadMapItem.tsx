@@ -22,7 +22,7 @@ const RoadmapItem = ({ phase, date, description, items, avatar, isLeft }) => {
             <span className="font-medium">{phase}</span>
             <span
               className="bg-white relative
-              rounded-full px-1 py-1 text-sm -right-10"
+              rounded-full px-1 py-1 text-sm -right-10 w-8 h-8 flex items-center justify-center"
             >
               {date}
             </span>

@@ -7,7 +7,7 @@ export default function MintInformation() {
         bg-[url('/bg/mobile_cloud_image.png')]`}
     >
       <div className="relative">
-        <h1 className="justify-center hidden text-4xl text-black animate-float md:flex md:text-6xl kode_mono_font">
+        <h1 className="justify-center hidden text-4xl text-black animate-float md:flex md:text-7xl kode_mono_font">
           Dive Into Aqua Rise
         </h1>
 
