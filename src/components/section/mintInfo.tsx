@@ -35,9 +35,7 @@ export default function MintInformation() {
             <div className="absolute inset-0 bg-white rounded-full opacity-30 blur-2xl" />
           </div>
 
-          <p
-            className="text-lg text-black lg:text-3xl md:mt-0 kode_mono_font md:text-white"
-          >
+          <p className="text-lg text-black lg:text-3xl md:mt-0 kode_mono_font md:text-white">
             Mp: 0.5 SOL
           </p>
         </div>

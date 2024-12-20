@@ -1,11 +1,26 @@
-const RoadmapItem = ({ phase, date, description, items, avatar,
-                        isLeft , isLastItem }) => {
-
+const RoadmapItem = ({
+  phase,
+  date,
+  description,
+  items,
+  avatar,
+  isLeft,
+  isLastItem,
+}) => {
   const isNotLeft = !isLeft;
   return (
-    <div className={`flex flex-col ${isNotLeft && 'items-end'} ${isLastItem && 'items-center'}`}>
+    <div
+      className={`flex flex-col ${isNotLeft && "items-end"} ${isLastItem && "items-center"}
+      `}
+    >
       <div
-        className={`  lg:w-[599px]  flex flex-col md:flex-row ${isLeft ? "md:flex-row" : "md:flex-row-reverse"}  md:items-start md:gap-8 gap-4 mb-24`}
+        className={
+          !isLastItem
+            ? ` 
+          flex flex-col md:flex-row ${isLeft ? "md:flex-row" : "md:flex-row-reverse"}
+            md:items-start md:gap-8 gap-4 mb-24`
+            : "flex flex-col items-center justify-center"
+        }
       >
         <div className="  w-24 h-24 rounded-full bg-white flex-shrink-0 overflow-hidden">
           <img
@@ -15,9 +30,7 @@ const RoadmapItem = ({ phase, date, description, items, avatar,
           />
         </div>
 
-        <div
-          className={`flex-1 ${isLeft ? "text-left" : "text-right"}   md:text-${isLeft ? "left" : "right"} text-center `}
-        >
+        <div className={`flex-1  pt-12 `}>
           <div className="inline-block">
             <div
               className="bg-primary-500 w-fit rounded-xl px-6 py-3 text-black inline-flex items-center
@@ -28,12 +41,12 @@ const RoadmapItem = ({ phase, date, description, items, avatar,
                 className="bg-white relative
               rounded-full px-1 py-1 text-sm -right-10 w-8 h-8 flex items-center justify-center"
               >
-              {date}
-            </span>
+                {date}
+              </span>
             </div>
           </div>
 
-          <div className={"w-full md:w-[500px]"}>
+          <div className={"w-full md:w-[450px] "}>
             <ul
               className={`mt-4 space-y-3 text-gray-200 ${isLeft ? "md:pl-4" : "md:pr-4"} pl-2 pr-2`}
             >
