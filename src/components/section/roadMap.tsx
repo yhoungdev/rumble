@@ -52,7 +52,6 @@ const Roadmap = () => {
         `As the tide ebbs and flows, those who remain active will enjoy exclusive rewards, staking opportunities, and future tournament access.`,
       ],
     },
-
   ];
 
   return (
@@ -69,16 +68,18 @@ const Roadmap = () => {
       <div className="relative max-w-5xl mx-auto">
         {/*<div className="absolute top-0 bottom-0 w-px -translate-x-1/2 border-l-2 border-dotted left-1/2 border-blue-400/30" />*/}
 
-        {roadmapData.map((item, index) => (
-          <RoadmapItem
+        {roadmapData.map((item, index , array) => {
+          const isLastItem = index === array.length - 1;
+          return <RoadmapItem
             key={index}
             phase={item.phase}
             date={item.date}
             items={item.items}
             avatar={item.avatar}
             isLeft={index % 2 === 0}
+            isLastItem={isLastItem}
           />
-        ))}
+        })}
       </div>
     </div>
   );

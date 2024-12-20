@@ -1,8 +1,9 @@
-const RoadmapItem = ({ phase, date, description, items, avatar, isLeft }) => {
+const RoadmapItem = ({ phase, date, description, items, avatar,
+                        isLeft , isLastItem }) => {
 
   const isNotLeft = !isLeft;
   return (
-    <div className={`flex flex-col ${isNotLeft && 'items-end'}`}>
+    <div className={`flex flex-col ${isNotLeft && 'items-end'} ${isLastItem && 'items-center'}`}>
       <div
         className={`  lg:w-[599px]  flex flex-col md:flex-row ${isLeft ? "md:flex-row" : "md:flex-row-reverse"}  md:items-start md:gap-8 gap-4 mb-24`}
       >
