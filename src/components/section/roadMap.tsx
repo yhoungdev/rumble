@@ -5,7 +5,7 @@ const Roadmap = () => {
   const roadmapData = [
     {
       phase: "Concept & Strategy:",
-      date: "Q4-24",
+      date: "1",
       avatar: "/images/roadmap/4.svg",
       items: [
         "Crafting the elemental world and defining the rules of the knockout tournament. The core gameplay mechanics are designed to spark intense competition.",
@@ -13,7 +13,7 @@ const Roadmap = () => {
     },
     {
       phase: "Art & Design:",
-      date: "Q1-25",
+      date: "2",
       avatar: "/images/roadmap/3.svg",
       items: [
         `Our team dives deep into the creation of stunning elemental characters—each wave of creativity flowing into the unique designs of Aqua, Ignis, Terra, and Zephyr.`,
@@ -21,7 +21,7 @@ const Roadmap = () => {
     },
     {
       phase: "Launch the Collection (4096 NFTs)",
-      date: "Q2-25",
+      date: "3",
       avatar: "/images/roadmap/2.svg",
       items: [
         `The tide is rising, and Aqua’s champions are ready. The official mint begins, bringing our elemental warriors into the hands of their masters.`,
@@ -29,7 +29,7 @@ const Roadmap = () => {
     },
     {
       phase: "Community Growth",
-      date: "Q2-25",
+      date: "4",
       avatar: "/images/roadmap/1.svg",
       items: [
         `Rallying the elemental forces—building a passionate community around the tournament. Allowlist spots, giveaways, and special events will flow like currents through our community.`,
@@ -37,7 +37,7 @@ const Roadmap = () => {
     },
     {
       phase: "Knockout Tournament Begins",
-      date: "Q2-25",
+      date: "5",
       avatar: "/images/roadmap/1.svg",
       items: [
         `The elemental forces clash! Players will select their opponents, strategize their battles, and fight their way through each round as the pool of contestants shrinks by half.`,
@@ -45,7 +45,7 @@ const Roadmap = () => {
     },
     {
       phase: "Battle Buffs Unleashed",
-      date: "Q2-25",
+      date: "6",
       avatar: "/images/roadmap/1.svg",
       items: [
         `Introducing character buffs based on your choices—an opportunity to tilt the odds in your favor with the right matchups. Water flows, and so should your strategy.`,
