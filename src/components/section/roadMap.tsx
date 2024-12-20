@@ -52,6 +52,7 @@ const Roadmap = () => {
         `As the tide ebbs and flows, those who remain active will enjoy exclusive rewards, staking opportunities, and future tournament access.`,
       ],
     },
+
   ];
 
   return (
