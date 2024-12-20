@@ -4,53 +4,59 @@ import TopHeader from "../misc/topHeader.tsx";
 const Roadmap = () => {
   const roadmapData = [
     {
-      phase: "Blueprint",
+      phase: "Concept & Strategy:",
       date: "Q4-24",
       avatar: "/images/roadmap/4.svg",
       items: [
-        "Game Development: We kick off the core development of the Rumble game, focusing on creating the foundational mechanics of the knockout tournament, opponent selection, and elemental battles.",
-        "Art Design & Character Creation: Bringing each elemental character to life with unique designs and styles that capture the essence of Rumble's four elements.",
+        "Crafting the elemental world and defining the rules of the knockout tournament. The core gameplay mechanics are designed to spark intense competition.",
       ],
     },
     {
-      phase: "The Battlefront",
+      phase: "Art & Design:",
       date: "Q1-25",
       avatar: "/images/roadmap/3.svg",
       items: [
-        "Partnerships with Gaming Communities: We'll establish partnerships with leading Web3 gaming communities, influencers, and platforms to expand our reach and bring like-minded players and NFT enthusiasts into the Rumble ecosystem.",
-        `Launch the Collection (4096 NFTs): 
-The tide is rising, and Rumble champions are ready. The official mint begins, bringing our elemental warriors into the hands of their masters. 
-
-Knockout tournament begins.`,
+        `Our team dives deep into the creation of stunning elemental characters—each wave of creativity flowing into the unique designs of Aqua, Ignis, Terra, and Zephyr.`,
       ],
     },
     {
-      phase: "Expansion",
+      phase: "Launch the Collection (4096 NFTs)",
       date: "Q2-25",
       avatar: "/images/roadmap/2.svg",
       items: [
-        "Funding Phase: Increase the prize pool, enhancing rewards and creating a larger, more competitive ecosystem for Web3 Communities.",
-        `Sidekick Free Mint: 
-Introduce collectible sidekick companions to enhance player strategy.`,
-        `PVP Battle for NFT Holders: 
-A new one-on-one battle system where Rumble NFT holders can challenge each other and wager funds. Each duel’s outcome is influenced by NFT elemental strengths, adding strategic depth and rewarding skillful play.`,
+        `The tide is rising, and Aqua’s champions are ready. The official mint begins, bringing our elemental warriors into the hands of their masters.`,
       ],
     },
     {
-      phase: "New World",
+      phase: "Community Growth",
       date: "Q2-25",
       avatar: "/images/roadmap/1.svg",
       items: [
-        "Season 2 Launch: Introducing bigger prizes, new characters and challenges for a fresh game experience.",
-
-        `Community Event:  Host a large-scale event with giveaways and community-building activities.`,
+        `Rallying the elemental forces—building a passionate community around the tournament. Allowlist spots, giveaways, and special events will flow like currents through our community.`,
+      ],
+    },
+    {
+      phase: "Knockout Tournament Begins",
+      date: "Q2-25",
+      avatar: "/images/roadmap/1.svg",
+      items: [
+        `The elemental forces clash! Players will select their opponents, strategize their battles, and fight their way through each round as the pool of contestants shrinks by half.`,
+      ],
+    },
+    {
+      phase: "Battle Buffs Unleashed",
+      date: "Q2-25",
+      avatar: "/images/roadmap/1.svg",
+      items: [
+        `Introducing character buffs based on your choices—an opportunity to tilt the odds in your favor with the right matchups. Water flows, and so should your strategy.`,
+        `As the tide ebbs and flows, those who remain active will enjoy exclusive rewards, staking opportunities, and future tournament access.`,
       ],
     },
   ];
 
   return (
     <div
-      className="min-h-screen roadmap_gradient bg-gray-900 p-8"
+      className="min-h-screen p-8 bg-gray-900 roadmap_gradient"
       id={"roadmap"}
     >
       <div className={"container"}>
@@ -59,8 +65,8 @@ A new one-on-one battle system where Rumble NFT holders can challenge each other
 
       <Typography>ROADMAP</Typography>
 
-      <div className="max-w-5xl mx-auto relative">
-        {/*<div className="absolute left-1/2 top-0 bottom-0 w-px border-l-2 border-dotted border-blue-400/30 -translate-x-1/2" />*/}
+      <div className="relative max-w-5xl mx-auto">
+        {/*<div className="absolute top-0 bottom-0 w-px -translate-x-1/2 border-l-2 border-dotted left-1/2 border-blue-400/30" />*/}
 
         {roadmapData.map((item, index) => (
           <RoadmapItem
