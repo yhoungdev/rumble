@@ -2,6 +2,7 @@ export const nftData = [
   {
     image: "/images/collectibles/8787.png",
     name: "The Eternal Tides",
+    rating: "3.5",
     perks: [
       {
         title: "Aqua and Marina",
@@ -13,8 +14,9 @@ export const nftData = [
     ],
   },
   {
-    image: "/images/collectibles/8888.png",
+    image: "/images/collectibles/9022.png",
     name: "The Flames of Rebirth",
+    rating: "2.5",
     perks: [
       {
         title: "Ignis and Pyra",
@@ -25,8 +27,9 @@ export const nftData = [
     ],
   },
   {
-    image: "/images/collectibles/8888.png",
+    image: "/images/collectibles/ice_boy.svg",
     name: "The Whispering Winds",
+    rating: "5",
     perks: [
       {
         title: "Zephyr and Aero ",
@@ -41,6 +44,7 @@ export const nftData = [
   {
     image: "/images/collectibles/8888.png",
     name: "The Guardians of the Land\n",
+    rating: "4",
     perks: [
       {
         title: "Terra and Gaia",

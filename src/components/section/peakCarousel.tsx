@@ -2,6 +2,7 @@ import Button from "../button";
 import { useState } from "react";
 import CarouselPagination from "../misc/carouselPagination";
 import { nftData } from "../../data";
+import { RatingStateSvg } from "../../assets/svgs";
 
 const PerkCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -14,8 +15,6 @@ const PerkCarousel = () => {
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
   };
-
-  const [peakName, setPeakName] = useState("Peak");
 
   return (
     <div className="w-full mx-auto">
@@ -30,9 +29,19 @@ const PerkCarousel = () => {
               className={"md:w-[450px]"}
               alt={`Slide ${currentSlide + 1}`}
             />
-            <span className="text-lg font-bold kode_mono_font mt-2">
-              {nftData[currentSlide].perks[0].title}
-            </span>
+
+            <div className={"my-2"}>
+              <span className="text-lg font-bold kode_mono_font mt-2">
+                {nftData[currentSlide].perks[0].title}
+              </span>
+
+              <span className={"flex items-center justify-center gap-1 mt-2"}>
+                <RatingStateSvg />
+                <p className={"font-semibold text-xs"}>
+                  {nftData[currentSlide].rating}
+                </p>
+              </span>
+            </div>
 
             {/*<Button*/}
             {/*  className={"bg-white text-black my-[2em] md:my-[3em]"}*/}
@@ -43,7 +52,7 @@ const PerkCarousel = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-[550px] bg-black py-[2em] px-[2em] md:h-[380px] rounded-3xl top-10 left-10 md:static md:top-auto md:left-auto text-white">
+        <div className="w-full md:w-[550px] flex items-center   bg-black py-[2em] px-[2em] md:h-[380px] rounded-3xl top-10 left-10 md:static md:top-auto md:left-auto text-white">
           <div className={"w-[70%] mx-auto"}>
             <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
               {nftData[currentSlide].name}
@@ -51,7 +60,9 @@ const PerkCarousel = () => {
             <ul className="list-none space-y-4">
               {nftData[currentSlide].perks.map((perk, index) => (
                 <li key={index}>
-                  <p className="text-xs mt-1 ">{perk.description}</p>
+                  <p className="text-sm mt-1 text-center ">
+                    {perk.description}
+                  </p>
                 </li>
               ))}
             </ul>
