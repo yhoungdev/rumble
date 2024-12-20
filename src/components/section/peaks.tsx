@@ -19,9 +19,9 @@ const PeakSection = () => {
         }}
       ></div>
 
-      <div className="w-full py-[5em] bg-primary-300">
+      <div className="w-full py-[2em] bg-primary-300">
         <div className="container  mx-auto">
-          <div className={"mb-[10em] mt-[6em]"}>
+          <div className={"mb-[10em] mt-[4em]"}>
             <TopHeader title={"Characters"} />
           </div>
           <PeakCarousel />

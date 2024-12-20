@@ -22,6 +22,9 @@ const PerkCarousel = () => {
         <div
           className="w-full md:w-[554px] bg-black md:h-[500px]
          rounded-2xl relative z-10 md:-mr-20 flex items-center justify-center"
+          style={{
+            boxShadow: "15px 4px 20px rgba(255, 255, 255, 0.03)",
+          }}
         >
           <div className="flex flex-col items-center md:absolute -top-10">
             <img
