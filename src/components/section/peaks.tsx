@@ -10,13 +10,10 @@ const PeakSection = () => {
       }}
     >
       <div
-        className="h-[80px]"
-        style={{
-          backgroundImage: "url(/bg/volcano_bg.svg)",
-          backgroundPosition: "center center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
+        className="h-[100px]
+        w-full bg-[url(/bg/volcano_bg.svg)] bg-center
+        bg-cover bg-no-repeat"
+
       ></div>
 
       <div className="w-full py-[2em] bg-primary-300">
