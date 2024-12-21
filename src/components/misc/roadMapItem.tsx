@@ -31,7 +31,7 @@ const RoadmapItem = ({
         </div>
 
         <div className={`flex-1  pt-12 `}>
-          <div className="inline-block">
+          <div className={`flex ${isLastItem && 'justify-center'}`}>
             <div
               className="bg-primary-500 w-fit rounded-xl px-6 py-3 text-black inline-flex items-center
             justify-center gap-2"
