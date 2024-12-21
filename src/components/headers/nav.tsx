@@ -36,7 +36,7 @@ const HeaderNavs = () => {
 
   return (
     <header className={"container"}>
-      <nav className="container kode_mono_font px-4 py-6 flex items-center justify-between">
+      <nav className=" kode_mono_font px-4 py-6 flex items-center justify-between">
         <Link to="/">
           <div className="flex items-center gap-2">
             <img
@@ -50,7 +50,7 @@ const HeaderNavs = () => {
         </Link>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button
             onClick={toggleMobileMenu}
             className="focus:outline-none text-gray-800 dark:text-white"
@@ -63,7 +63,7 @@ const HeaderNavs = () => {
           </button>
         </div>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8">
           {navLinks.map((link, index) => (
             <button
               key={index}
@@ -75,7 +75,7 @@ const HeaderNavs = () => {
           ))}
         </div>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden lg:flex items-center gap-8">
           <Button>Whitelist</Button>
         </div>
 
