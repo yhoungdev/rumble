@@ -34,12 +34,11 @@ const CountDown = () => {
 
   return (
     <div
-      className="w-full md:h-[50vh] py-[4em]  bg-cover
-        bg-no-repeat"
-      style={{
-        backgroundImage: "url(/bg/banner.png)",
-        backgroundPosition: "center",
-      }}
+      className="w-full md:h-[50vh] py-[4em]
+      bg-[url(/bg/banner.png)]
+      bg-contain bg-cover bg-left bg-center
+       bg-no-repeat"
+
     >
       <div className="w-[75%]  text-center mx-auto h-full">
         <div className="mb-2 text-xl text-white md:text-2xl kode_mono_font">
