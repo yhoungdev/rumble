@@ -36,7 +36,7 @@ export default function FaqSection() {
           <Typography>FAQ</Typography>
         </div>
 
-        <div className="flex w-full items-center justify-between  border-b-2 pb-[1em] mb-12">
+        <div className="flex flex-col lg:flex-row w-full lg:items-center justify-between  gap-2 border-b-2 pb-[1em] mb-12">
           <h3 className={"kode_mono_font text-3xl"}>Clarity From Depths</h3>
 
           <RoundedButton>Support</RoundedButton>
@@ -44,7 +44,8 @@ export default function FaqSection() {
 
         {/* Description */}
         <div className="mb-12">
-          <p className="text-gray-400 text-base leading-relaxed md:w-[500px]">
+          <p className="text-gray-400 text-sm lg:text-lg
+           leading-relaxed md:w-[500px]">
             Rumble is an NFT-based knockout tournament game where players mint
             elemental characters and battle through rounds. Each round, winners
             can either split the grand prize or move on to try and become the

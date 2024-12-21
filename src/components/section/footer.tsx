@@ -11,7 +11,7 @@ function Footer() {
     <div className="footer bg-amber-400 w-full py-[2em] ">
       <div className="container flex justify-between mx-auto">
         <div className="flex items-center gap-2">
-          <img src={"/logo/footer_logo.svg"} alt="logo" />
+          <img src={"/logo/footer_logo.svg"} alt="logo"  width={70} height={70} />
           <h4 className={"kode_mono_font text-black font-bold"}>Rumble Inc</h4>
         </div>
 

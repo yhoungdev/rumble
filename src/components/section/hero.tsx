@@ -12,7 +12,7 @@ const Hero = () => {
               <br />
               Conquer the Tournament!
             </h1>
-            <p className="max-w-xl mt-4 font-light text-gray-400 text-sm  md:text-md">
+            <p className="max-w-xl mt-4 font-light text-gray-400 text-sm lg:text-lg  md:text-md">
               Dive into Rumble—a thrilling NFT experience where luck and
               strategy intertwine! Assemble your team of elemental{" "}
               <span className="text-red-500">Fire</span>,{" "}

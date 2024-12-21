@@ -42,8 +42,8 @@ const HeaderNavs = () => {
             <img
               src={"/logo/footer_logo.svg"}
               alt="logo"
-              width={80}
-              height={80}
+              width={70}
+              height={70}
             />
             <div className="font-bold text-xl">RUMBLE</div>
           </div>

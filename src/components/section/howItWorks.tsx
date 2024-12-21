@@ -44,7 +44,7 @@ export default function HowItWorks() {
 
         {/* Description */}
         <div className="mb-12 md:ml-10">
-          <p className="text-gray-400 text-base leading-relaxed md:w-[500px]">
+          <p className="text-gray-400 text-sm lg:text-lg leading-relaxed md:w-[500px]">
             In Rumble, your journey begins by minting your very own elemental
             character. Choose from a diverse roster of unique designs, each
             representing one of the four elements: Fire, Water, Earth, or Air.
