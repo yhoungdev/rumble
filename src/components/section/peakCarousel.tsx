@@ -18,18 +18,18 @@ const PerkCarousel = () => {
 
   return (
     <div className="w-full mx-auto">
-      <div className="flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-center relative">
+      <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-center relative">
         <div
-          className="w-full md:w-[554px] bg-black md:h-[500px]
-         rounded-2xl relative z-10 md:-mr-20 flex items-center justify-center"
+          className="w-full lg:w-[554px] bg-black lg:h-[500px]
+         rounded-2xl relative z-10 lg:-mr-20 flex items-center justify-center"
           style={{
             boxShadow: "15px 4px 20px rgba(255, 255, 255, 0.03)",
           }}
         >
-          <div className="flex flex-col items-center md:absolute -top-10">
+          <div className="flex flex-col items-center lg:absolute -top-10">
             <img
               src={nftData[currentSlide].image}
-              className={"md:w-[450px] rounded-2xl"}
+              className={"lg:w-[450px] rounded-2xl"}
               alt={`Slide ${currentSlide + 1}`}
             />
 
@@ -47,7 +47,7 @@ const PerkCarousel = () => {
             </div>
 
             {/*<Button*/}
-            {/*  className={"bg-white text-black my-[2em] md:my-[3em]"}*/}
+            {/*  className={"bg-white text-black my-[2em] lg:my-[3em]"}*/}
             {/*  textColor={"black"}*/}
             {/*>*/}
             {/*  Claim Guardian*/}
@@ -55,7 +55,7 @@ const PerkCarousel = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-[550px] flex    bg-black py-[2em] px-[2em] md:h-[380px] rounded-3xl top-10 left-10 md:static md:top-auto md:left-auto text-white">
+        <div className="w-full lg:w-[550px] flex    bg-black py-[2em] px-[2em] lg:h-[380px] rounded-3xl top-10 left-10 lg:static lg:top-auto lg:left-auto text-white">
           <div className={"w-[70%] mx-auto"}>
             <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
               {nftData[currentSlide].name}

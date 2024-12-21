@@ -25,7 +25,8 @@ export default {
         padding: {
           DEFAULT: '1rem',
           sm: '2rem',
-          lg: '1rem',
+          md: '.5rem',
+          lg: '.5rem',
           xl: '1rem',
           '2xl': '4rem',
         },
