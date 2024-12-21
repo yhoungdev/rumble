@@ -3,16 +3,17 @@ import TopHeader from "../misc/topHeader.tsx";
 
 export default function Partner() {
   const partners1 = [
-    { name: "ME", logo: "/images/partners/bear.svg" },
-    { name: "Ghost", logo: "/images/partners/drip.svg" },
-    { name: "DRiP", logo: "/images/partners/jupiter.svg" },
-    { name: "Sun", logo: "/images/partners/orca.svg" },
+    { name: "Magic Eden", logo: "/images/partners/magic_eden.svg" },
+    { name: "Phantom", logo: "/images/partners/phantom.svg" },
+    { name: "Drip", logo: "/images/partners/drip.svg" },
+    { name: "Orca", logo: "/images/partners/orca.svg" },
   ];
 
   const partners2 = [
-    { name: "DeGods", logo: "/images/partners/phantom.svg" },
-    { name: "Jupiter", logo: "/images/partners/degods.svg" },
-    { name: "R", logo: "/images/partners/rayden.svg" },
+    { name: "Bear", logo: "/images/partners/bear.svg" },
+    { name: "Raydium", logo: "/images/partners/rayden.svg" },
+    { name: "DeGods", logo: "/images/partners/degods.svg" },
+    { name: "Jupiter", logo: "/images/partners/jupiter.svg" },
   ];
 
   return (
