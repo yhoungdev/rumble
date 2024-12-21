@@ -22,7 +22,10 @@ const RoadmapItem = ({
             : "flex flex-col items-center justify-center"
         }
       >
-        <div className="  w-24 h-24 rounded-full bg-white flex-shrink-0 overflow-hidden">
+        <div
+          className="   w-24 h-24 rounded-full bg-white
+          flex-shrink-0 overflow-hidden"
+        >
           <img
             src={avatar}
             alt="Phase Avatar"
@@ -31,22 +34,22 @@ const RoadmapItem = ({
         </div>
 
         <div className={`flex-1  pt-12 `}>
-          <div className={`flex ${isLastItem && 'justify-center'}`}>
+          <div className={`flex ${isLastItem && "justify-center"}`}>
             <div
-              className="bg-primary-500 w-fit rounded-xl px-6 py-3 text-black inline-flex items-center
+              className="bg-primary-500 w-fit rounded-xl px-2 py-3 text-black inline-flex items-center
             justify-center gap-2"
             >
               <span className="font-medium">{phase}</span>
               <span
                 className="bg-white relative
-              rounded-full px-1 py-1 text-sm -right-10 w-8 h-8 flex items-center justify-center"
+              rounded-full px-1 py-1 text-sm -right-6 w-8 h-8 flex items-center justify-center"
               >
                 {date}
               </span>
             </div>
           </div>
 
-          <div className={"w-full md:w-[450px] "}>
+          <div className={"w-full xl:w-[400px] "}>
             <ul
               className={`mt-4 space-y-3 text-gray-200 ${isLeft ? "md:pl-4" : "md:pr-4"} pl-2 pr-2`}
             >
