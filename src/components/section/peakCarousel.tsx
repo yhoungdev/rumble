@@ -21,7 +21,8 @@ const PerkCarousel = () => {
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-center relative">
         <div
           className="w-full lg:w-[554px] bg-black lg:h-[500px]
-         rounded-2xl relative z-10 lg:-mr-20 flex items-center justify-center"
+         rounded-2xl relative z-10 lg:-mr-20 flex items-center justify-center
+          skew-y-1"
           style={{
             boxShadow: "15px 4px 20px rgba(255, 255, 255, 0.03)",
           }}
