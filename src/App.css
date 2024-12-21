@@ -4,14 +4,12 @@
 
 html {
   scroll-behavior: smooth;
-
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 .art {
@@ -33,9 +31,13 @@ html {
   /*  rgb(0 0 0) 100%*/
   /*);*/
 
-  background: radial-gradient(circle at left center, rgb(255 28 28 / 14%) 10%, rgb(195 49 49 / 16%) 30%, rgb(218 54 54 / 0%) 70%, rgb(0 0 0) 100%);
-
-
+  background: radial-gradient(
+    circle at left center,
+    rgb(255 28 28 / 14%) 10%,
+    rgb(195 49 49 / 16%) 30%,
+    rgb(218 54 54 / 0%) 70%,
+    rgb(0 0 0) 100%
+  );
 }
 
 .side_gradient {

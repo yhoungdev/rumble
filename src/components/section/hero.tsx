@@ -26,12 +26,10 @@ const Hero = () => {
           <CountDown />
         </div>
 
-        <div className="flex-1  "
-         >
+        <div className="flex-1  ">
           <img
             src="./images/hero_image.png"
             alt="Game character with fire effects"
-
             className="w-30 h-30"
           />
         </div>

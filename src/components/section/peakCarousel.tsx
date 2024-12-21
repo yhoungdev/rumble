@@ -63,9 +63,7 @@ const PerkCarousel = () => {
             <ul className="list-none space-y-4">
               {nftData[currentSlide].perks.map((perk, index) => (
                 <li key={index}>
-                  <p className="text-sm mt-1  ">
-                    {perk.description}
-                  </p>
+                  <p className="text-sm mt-1  ">{perk.description}</p>
                 </li>
               ))}
             </ul>

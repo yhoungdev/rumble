@@ -44,8 +44,10 @@ export default function FaqSection() {
 
         {/* Description */}
         <div className="mb-12">
-          <p className="text-gray-400 text-sm lg:text-lg
-           leading-relaxed md:w-[500px]">
+          <p
+            className="text-gray-400 text-sm lg:text-lg
+           leading-relaxed md:w-[500px]"
+          >
             Rumble is an NFT-based knockout tournament game where players mint
             elemental characters and battle through rounds. Each round, winners
             can either split the grand prize or move on to try and become the

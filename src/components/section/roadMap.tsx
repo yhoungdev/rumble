@@ -69,7 +69,6 @@ const Roadmap = () => {
       <div
         className="relative max-w-5xl mx-auto
           lg:bg-[url(/bg/line.png)] bg-no-repeat bg-contain bg-center "
-
       >
         {roadmapData.map((item, index, array) => {
           const isLastItem = index === array.length - 1;
