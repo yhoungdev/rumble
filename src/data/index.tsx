@@ -1,6 +1,6 @@
 export const nftData = [
   {
-    image: "/images/collectibles/8787.png",
+    image: "/images/collectibles/water.jpeg",
     name: "The Eternal Tides",
     rating: "3.5",
     perks: [
@@ -14,7 +14,7 @@ export const nftData = [
     ],
   },
   {
-    image: "/images/collectibles/9022.png",
+    image: "/images/collectibles/fire.jpeg",
     name: "The Flames of Rebirth",
     rating: "2.5",
     perks: [
@@ -27,7 +27,7 @@ export const nftData = [
     ],
   },
   {
-    image: "/images/collectibles/ice_boy.svg",
+    image: "/images/collectibles/wind.jpeg",
     name: "The Whispering Winds",
     rating: "5",
     perks: [
@@ -42,7 +42,7 @@ export const nftData = [
     ],
   },
   {
-    image: "/images/collectibles/8888.png",
+    image: "/images/collectibles/earth.jpeg",
     name: "The Guardians of the Land\n",
     rating: "4",
     perks: [

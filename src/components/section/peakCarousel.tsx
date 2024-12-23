@@ -18,7 +18,7 @@ const PerkCarousel = () => {
 
   return (
     <div className="w-full mx-auto">
-      <div className="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-center relative">
+      <div className="relative flex flex-col items-center justify-center gap-4 lg:flex-row lg:gap-0">
         <div
           className="w-full lg:w-[554px] bg-black lg:h-[500px]
          rounded-2xl relative z-10 lg:-mr-20 flex items-center justify-center
@@ -35,7 +35,7 @@ const PerkCarousel = () => {
             />
 
             <div className={"my-2"}>
-              <span className="text-lg font-bold kode_mono_font mt-2">
+              <span className="mt-2 text-lg font-bold kode_mono_font">
                 {nftData[currentSlide].perks[0].title}
               </span>
 
@@ -58,13 +58,13 @@ const PerkCarousel = () => {
 
         <div className="w-full lg:w-[550px] flex    bg-black py-[2em] px-[2em] lg:h-[380px] rounded-3xl top-10 left-10 lg:static lg:top-auto lg:left-auto text-white">
           <div className={"w-[70%] mx-auto"}>
-            <h4 className="text-amber-500 kode_mono_font text-center font-bold text-2xl mb-4">
+            <h4 className="mb-4 text-2xl font-bold text-center text-amber-500 kode_mono_font">
               {nftData[currentSlide].name}
             </h4>
-            <ul className="list-none space-y-4">
+            <ul className="space-y-4 list-none">
               {nftData[currentSlide].perks.map((perk, index) => (
                 <li key={index}>
-                  <p className="text-sm mt-1  ">{perk.description}</p>
+                  <p className="mt-1 text-sm ">{perk.description}</p>
                 </li>
               ))}
             </ul>

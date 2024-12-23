@@ -17,7 +17,7 @@ export default function MintInformation() {
         >
           <div className="text-center md:text-left md:mb-0 kode_mono_font">
             <p className="text-lg text-black lg:text-3xl md:text-white">4096</p>
-           
+
             <p className="text-lg text-black lg:text-3xl md:text-white">
               Await
             </p>
@@ -33,14 +33,14 @@ export default function MintInformation() {
             <div className="absolute inset-0 bg-white rounded-full opacity-30 blur-2xl" />
           </div>
 
-         <div className="flex flex-col">
-         <p className="text-lg text-black lg:text-3xl kode_mono_font md:text-white">
-              Elemental 
+          <div className="flex flex-col">
+            <p className="text-lg text-black lg:text-3xl kode_mono_font md:text-white">
+              Elemental
             </p>
             <p className="text-lg text-black lg:text-3xl kode_mono_font md:text-white">
-             Warriors
+              Warriors
             </p>
-         </div>
+          </div>
         </div>
 
         {/* <div className="flex justify-center pb-6">

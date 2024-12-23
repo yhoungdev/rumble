@@ -14,7 +14,7 @@ export const roadmapData = [
     avatar: "/images/roadmap/3.svg",
     items: [
       `Our team dives deep into the creation of stunning elemental characters—each wave of creativity flowing into the unique designs of Aqua, Ignis, Terra, and Zephyr.`,
-      `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...`
+      `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...`,
     ],
   },
   {
@@ -23,7 +23,7 @@ export const roadmapData = [
     avatar: "/images/roadmap/2.svg",
     items: [
       `The tide is rising, and Aqua’s champions are ready. The official mint begins, bringing our elemental warriors into the hands of their masters.`,
-      `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...`
+      `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...`,
     ],
   },
   {
@@ -32,7 +32,7 @@ export const roadmapData = [
     avatar: "/images/roadmap/1.svg",
     items: [
       `Rallying the elemental forces—building a passionate community around the tournament. Allowlist spots, giveaways, and special events will flow like currents through our community.`,
-      `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...`
+      `Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...`,
     ],
   },
   // {
